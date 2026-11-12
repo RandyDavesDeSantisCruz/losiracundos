@@ -109,13 +109,10 @@
 
   <nav class="menu">
     <a href="#biografia breve">Biografía breve</a> |
-    <a href="#fotos">Fotos</a> |
-    <a href="#musica">Música</a> |
-    <a href="#video">Video</a>
-    <a href="#biografia">Biografía</a> |
-    <a href="#fotos">Fotos</a> |
-    <a href="#musica">Música</a> |
-    <a href="#video">Video</a>
+    <a href="#galería">Galería</a> |
+    <a href="#videos musicales">Videos musicales</a> |
+    <a href="#catálogo">Catálogo</a>
+    <a href="#letras de canciones">Letras de canciones</a>
   </nav>
 
   <main>
@@ -139,7 +136,6 @@
       <p>
         El grupo Los Iracundos son una agrupación de música provenientes de Paysandú.
     <section class="pagina detalle" id="País de origen" hidden>
-      <h2>País de origen</h2>
       <h3>País de origen</h3>
       <p>
         El grupo es proveniente de Uruguay.
