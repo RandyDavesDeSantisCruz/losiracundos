@@ -111,7 +111,7 @@
     <a href="#biografia breve">Biografía breve</a> |
     <a href="#galería">Galería</a> |
     <a href="#videos musicales">Videos musicales</a> |
-    <a href="#catálogo">Catálogo</a>
+    <a href="#catálogo">Catálogo</a> |
     <a href="#letras de canciones">Letras de canciones</a>
   </nav>
 
