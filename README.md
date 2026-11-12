@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Página Homenaje a Los Iracundos">
+  <meta name="description" content="Página biográfica de Randy De Santis - Los Iracundos">
   <title>Los Iracundos</title>
   <style>
     * { box-sizing: border-box; }
@@ -108,11 +108,10 @@
   </header>
 
   <nav class="menu">
-    <a href="#biografia breve">Biografía breve</a> |
-    <a href="#galería">Galería</a> |
-    <a href="#videos musicales">Videos musicales</a> |
-    <a href="#catálogo">Catálogo</a> |
-    <a href="#letras de canciones">Letras de canciones</a>
+    <a href="#biografia">Biografía</a> |
+    <a href="#fotos">Fotos</a> |
+    <a href="#musica">Música</a> |
+    <a href="#video">Video</a>
   </nav>
 
   <main>
@@ -132,14 +131,12 @@
     <!-- BIOGRAFÍA -->
     <section class="pagina detalle" id="biografia" hidden>
       <h2>Biografía</h2>
-      <h3>Biografía breve</h3>
+      <h3>Randy De Santis</h3>
       <p>
-        El grupo Los Iracundos son una agrupación de música provenientes de Paysandú.
-    <section class="pagina detalle" id="País de origen" hidden>
-      <h3>País de origen</h3>
-      <p>
-        El grupo es proveniente de Uruguay.
-      </p>
+        Hola, me llamo Randy De Santis y tengo 29 años. Soy nacido en Guayaquil
+        pero he vivido en Ventanas prácticamente toda mi vida y actualmente
+        estudio en el 3er Semestre de la carrera de Sistemas de Información de
+        la Universidad Técnica de Babahoyo.
       </p>
       <p><a href="#inicio">← Volver al inicio</a></p>
     </section>
@@ -185,7 +182,7 @@
   </main>
 
   <footer class="pie">
-    Randy Daves De Santis Cruz - Carrera de Sistemas de información 3er Semestre "C" Vespertino - Hecho en el 2026
+    Comentarios y sugerencias al correo:
     <a href="mailto:randydavesdesantiscruz1996@gmail.com">randydavesdesantiscruz1996@gmail.com</a>
     - &copy; 2026 Randy De Santis - Todos los derechos reservados
   </footer>
