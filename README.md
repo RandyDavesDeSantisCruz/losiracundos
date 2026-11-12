@@ -137,7 +137,13 @@
       <h2>Biografía</h2>
       <h3>Biografía breve</h3>
       <p>
-        El grupo Los Iracundos son una agrupación de música provenientes de Paysandú, Uruguay.
+        El grupo Los Iracundos son una agrupación de música provenientes de Paysandú.
+    <section class="pagina detalle" id="País de origen" hidden>
+      <h2>País de origen</h2>
+      <h3>País de origen</h3>
+      <p>
+        El grupo es proveniente de Uruguay.
+      </p>
       </p>
       <p><a href="#inicio">← Volver al inicio</a></p>
     </section>
