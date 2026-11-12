@@ -108,7 +108,7 @@
   </header>
 
   <nav class="menu">
-    <a href="#biografia">Biografía breve</a> |
+    <a href="#biografia breve">Biografía breve</a> |
     <a href="#fotos">Fotos</a> |
     <a href="#musica">Música</a> |
     <a href="#video">Video</a>
