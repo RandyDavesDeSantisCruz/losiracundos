@@ -216,7 +216,7 @@
     </section>
 
     <aside class="lateral">
-      <h3 id="saludo">Buenas noches</h3>
+      <h3 id="saludo">Bienvenido a mi sitio.</h3>
       <p><strong>Origen:</strong> Paysandú, Uruguay (1958)</p>
       <p><strong>Género:</strong> Pop rock / Balada romántica / Nueva ola</p>
       <p><strong>Éxito emblemático:</strong> <em>Puerto Montt</em> (1968)</p>
@@ -245,7 +245,7 @@
     <p>El grupo inicio su carrera desde bajo el nombre de Los Blue Kings entre 1958 hasta el año de 1963 cuando adoptaron el nombre de Los Iracundos el cual ha sido el nombre del grupo hasta ahora.</p>
 
     <h3>Año de inicio de su carrera</h3>
-</b> El grupo en 1968.
+    El grupo en 1968.
 <p>
 <img src="Los_Iracundos_en_1968.jpg" alt="Los Iracundos en 1968" width="300">
 </p>
