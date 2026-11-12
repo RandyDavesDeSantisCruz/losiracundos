@@ -236,7 +236,13 @@
     </p>
 
     <h3>País de origen</h3>
-    <p>El país de origen del grupo es <strong>Uruguay</strong>.</p>
+    <p>El país de origen del grupo es Uruguay.</p>
+
+    <h3>Género musical</h3>
+    <p>El repertorio musical del grupo se basa en géneros como el pop, la canción melódica, la balada romántica, el rock, la nueva ola, la música instrumental y la música beat.</p>
+
+    <h3>Año de inicio de su carrera</h3>
+    <p>El grupo inicio su carrera desde bajo el nombre de Los Blue Kings entre 1958 hasta el año de 1963 cuando adoptaron el nombre de Los Iracundos el cual ha sido el nombre del grupo hasta ahora.</p>
 
     <a class="volver" href="#inicio">← Volver al inicio</a>
   </section>
