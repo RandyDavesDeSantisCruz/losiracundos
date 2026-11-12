@@ -54,9 +54,12 @@
       <h1>Biografía</h1>
     </div>
     <div class="detalle">
-      <h2>Randy De Santis</h2>
-      <p>Hola, me llamo Randy De Santis y tengo 29 años. Soy nacido en Guayaquil pero he vivido en Ventanas prácticamente toda mi vida y actualmente estudio en
-        el 3er Semestre de la carrera de Sistemas de Información de la Universidad Técnica de Babahoyo.</p>
+      <h2>Nombre artístico</h2>
+      <p>El nombre artistico del grupo es Los Iracundos.</p>
+      <h2>Biografía breve</h2>
+      <p>Los Iracundos es una banda uruguaya de pop rock originaria de Paysandú, considerada en Uruguay la más importante del género. Se originó en 1958 bajo el nombre Los Blue Kings, inspirada en el rock and roll estadounidense de la época, y tuvieron su debut oficial en 1961, año en que lanzaron su primer sencillo con el sello uruguayo Clave. En 1964, firmaron con el sello RCA Victor en Argentina, donde cambiaron su nombre por Los Iracundos y adoptaron su característico estilo melódico y romántico, incorporándose al movimiento de la «nueva ola». La banda tuvo un crecimiento exponencial durante la década de 1960 que los consagraría internacionalmente, con numerosos discos editados, participaciones en películas y giras por América, Europa y Estados Unidos, incluyendo una presentación en el Madison Square Garden de Nueva York. Su mayor éxito vino en 1968 con «Puerto Montt» (Franco/Valdez), la canción más recordada de su carrera. El grupo reafirmó su popularidad en los años 1970 y 1980, editando varios discos de oro. El cantante Eduardo Franco es el autor de casi todo el repertorio compuesto por la banda, que también incluye composiciones instrumentales.</p>
+      <h2>País de origen</h2>
+      <p>El país de origen del grupo es de Uruguay.</p>
       <p><a href="#inicio">← Volver al inicio</a></p>
     </div>
   </div>
