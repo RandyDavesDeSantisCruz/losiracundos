@@ -182,7 +182,7 @@
   </main>
 
   <footer class="pie">
-    Comentarios y sugerencias al correo:
+    Randy Daves De Santis Cruz - Carrera de Sistemas de información 3er Semestre "C" Vespertino - Hecho en el 2026
     <a href="mailto:randydavesdesantiscruz1996@gmail.com">randydavesdesantiscruz1996@gmail.com</a>
     - &copy; 2026 Randy De Santis - Todos los derechos reservados
   </footer>
