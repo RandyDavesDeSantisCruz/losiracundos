@@ -108,6 +108,10 @@
   </header>
 
   <nav class="menu">
+    <a href="#biografia">Biografía breve</a> |
+    <a href="#fotos">Fotos</a> |
+    <a href="#musica">Música</a> |
+    <a href="#video">Video</a>
     <a href="#biografia">Biografía</a> |
     <a href="#fotos">Fotos</a> |
     <a href="#musica">Música</a> |
@@ -131,12 +135,9 @@
     <!-- BIOGRAFÍA -->
     <section class="pagina detalle" id="biografia" hidden>
       <h2>Biografía</h2>
-      <h3>Randy De Santis</h3>
+      <h3>Biografía breve</h3>
       <p>
-        Hola, me llamo Randy De Santis y tengo 29 años. Soy nacido en Guayaquil
-        pero he vivido en Ventanas prácticamente toda mi vida y actualmente
-        estudio en el 3er Semestre de la carrera de Sistemas de Información de
-        la Universidad Técnica de Babahoyo.
+        El grupo Los Iracundos son una agrupación de música provenientes de Paysandú, Uruguay.
       </p>
       <p><a href="#inicio">← Volver al inicio</a></p>
     </section>
