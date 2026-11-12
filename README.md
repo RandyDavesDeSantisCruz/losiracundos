@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Página biográfica de Randy De Santis - Los Iracundos">
+  <meta name="description" content="Página Homenaje a Los Iracundos">
   <title>Los Iracundos</title>
   <style>
     * { box-sizing: border-box; }
