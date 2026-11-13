@@ -370,11 +370,11 @@
       <h2>Videos</h2>
       <ul class="lista-items">
         <li>
-          <strong>Los Iracundos - Tú con él</strong>
+          <strong>Los Iracundos Viejitas Romanticas – Grandes Clásicos Románticos</strong>
           <div class="video-contenedor">
-            <iframe src="https://www.youtube.com/embed/vM1ijxK55lY" title="Los Iracundos - Tú con él" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/watch?v=u9iF2FCK_iY" title="Los Iracundos Viejitas Romanticas – Grandes Clásicos Románticos" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
-          <a class="enlace-respaldo" href="https://www.youtube.com/watch?v=vM1ijxK55lY" target="_blank" rel="noopener noreferrer">Ver en YouTube</a>
+          <a class="enlace-respaldo" href="https://www.youtube.com/watch?v=u9iF2FCK_iY" target="_blank" rel="noopener noreferrer">Ver en YouTube</a>
         </li>
       </ul>
 
@@ -398,7 +398,7 @@
         <div class="cabecera-letra">
           <div>
             <h3>1. Fábula</h3>
-            <span class="subtitulo-letra">Álbum: <em>Los Iracundos</em> (1972)</span>
+            <span class="subtitulo-letra">Álbum: <em>Incomparables</em> (1980)</span>
           </div>
           <a href="#musica" class="btn-catalogo">← Regresar al catálogo musical</a>
         </div>
@@ -471,7 +471,7 @@
         <div class="cabecera-letra">
           <div>
             <h3>2. Te lo pido de rodillas</h3>
-            <span class="subtitulo-letra">Álbum: <em>Los Iracundos</em> (1970)</span>
+            <span class="subtitulo-letra">Álbum: <em>Te lo pido de rodillas</em> (1973)</span>
           </div>
           <a href="#musica" class="btn-catalogo">← Regresar al catálogo musical</a>
         </div>
@@ -518,7 +518,7 @@
         <div class="cabecera-letra">
           <div>
             <h3>3. Puerto Montt</h3>
-            <span class="subtitulo-letra">Álbum: <em>Puerto Montt</em> (1968)</span>
+            <span class="subtitulo-letra">Álbum: <em>Los Iracundos</em> (1968)</span>
           </div>
           <a href="#musica" class="btn-catalogo">← Regresar al catálogo musical</a>
         </div>
