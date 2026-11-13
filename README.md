@@ -376,9 +376,56 @@
     <h3>Puerto Montt (Fragmento)</h3>
     <p>
       Sentado frente al mar<br>
-      mil besos yo le di,<br>
-      después le dije adiós<br>
-      y allí la vi partir...
+      Mil besos yo le di<br>
+      Después le dije adiós<br>
+      Todo termina aquí<br>
+      Y ella me dijo así.<br>
+
+      Abrázame y verás<br>
+      Que el mundo es de los dos<br>
+      Salgamos a correr<br>
+      Busquemos el ayer<br>
+      Que nos hizo feliz<br>
+
+      Puerto Montt<br>
+      Puerto Montt<br>
+      Me alejé de ti<br>
+      Sin saber por qué<br>
+
+      Y yo la dejé<br>
+      Sola frente al mar<br>
+      Bajo el cielo azul<br>
+      De Puerto Montt<br>
+
+      Mil violines en su voz<br>
+      Susurraron un adiós<br>
+      Y un amor que se quedó<br>
+      Perdido frente al mar<br>
+      Y el viento lo llevó<br>
+
+      Silencio sin piedad<br>
+      Encontraré al volver<br>
+      Mas en la soledad<br>
+      Su voz me gritará<br>
+      No, no te vayas de mí<br>
+
+      Puerto Montt<br>
+      Puerto Montt<br>
+      Me alejé de ti<br>
+      Sin saber por qué<br>
+
+      Y yo la dejé<br>
+      Sola frente al mar<br>
+      Bajo el cielo azul<br>
+      De Puerto Montt<br>
+
+      La-la-la, la, la<br>
+      La-la-la, la, la<br>
+      La-la-la, la, la<br>
+      La-la-la<br>
+
+      La-la-la, la, la<br>
+      La-la-la, la, la
     </p>
 
     <h3>Te lo pido de rodillas (Fragmento)</h3>
