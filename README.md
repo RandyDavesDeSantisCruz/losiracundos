@@ -158,18 +158,28 @@
 
     .lista-items li {
       background: #ffffff;
-      margin-bottom: 10px;
-      padding: 12px 16px;
+      margin-bottom: 14px;
+      padding: 16px;
       border-left: 4px solid #2196f3;
       border-radius: 4px;
     }
 
-    .lista-items .enlace-video {
-      display: inline-block;
-      margin-top: 6px;
-      color: #1565c0;
-      font-weight: bold;
-      text-decoration: none;
+    /* Contenedor responsivo para reproducir videos dentro de la página */
+    .video-contenedor {
+      margin-top: 10px;
+      max-width: 560px;
+      aspect-ratio: 16 / 9;
+      border-radius: 6px;
+      overflow: hidden;
+      background-color: #000;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    }
+
+    .video-contenedor iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
     }
 
     /* Cuadrícula y tarjetas de la Galería */
@@ -341,20 +351,22 @@
     <h2>Videos</h2>
     <ul class="lista-items">
       <li>
-        Fabula - los iracundos<br>
-        <a class="enlace-video" href="https://www.youtube.com/watch?v=ujLw6x4pMdU" target="_blank" rel="noopener noreferrer">Ver video aquí</a>
+        <strong>Fábula - Los Iracundos</strong>
+        <div class="video-contenedor">
+          <iframe src="https://www.youtube.com/embed/ujLw6x4pMdU" title="Fábula - Los Iracundos" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
       </li>
       <li>
-        los iracundos-te lo pido de rodillas<br>
-        <a class="enlace-video" href="https://www.youtube.com/watch?v=KFl0kAQzcwg" target="_blank" rel="noopener noreferrer">Ver video aquí</a>
+        <strong>Los Iracundos - Te lo pido de rodillas</strong>
+        <div class="video-contenedor">
+          <iframe src="https://www.youtube.com/embed/KFl0kAQzcwg" title="Los Iracundos - Te lo pido de rodillas" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
       </li>
       <li>
-        Aprontate a vivir - los iracundos<br>
-        <a class="enlace-video" href="https://www.youtube.com/watch?v=uUB9hhogtiw" target="_blank" rel="noopener noreferrer">Ver video aquí</a>
-      </li>
-      <li>
-        los iracundos-te lo pido de rodillas<br>
-        <a class="enlace-video" href="AQUI_VA_EL_ENLACE_DEL_VIDEO" target="_blank" rel="noopener noreferrer">Ver video aquí</a>
+        <strong>Apróntate a vivir - Los Iracundos</strong>
+        <div class="video-contenedor">
+          <iframe src="https://www.youtube.com/embed/uUB9hhogtiw" title="Apróntate a vivir - Los Iracundos" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
       </li>
     </ul>
 
@@ -398,6 +410,14 @@
 
       paginas.forEach(function (p) {
         var esActual = (p.id === id);
+
+        // Detiene los videos si el usuario cambia a otra sección
+        if (!esActual && !p.hidden) {
+          p.querySelectorAll("iframe").forEach(function (frame) {
+            frame.src = frame.src;
+          });
+        }
+
         p.hidden = !esActual;
         if (esActual) existe = true;
       });
