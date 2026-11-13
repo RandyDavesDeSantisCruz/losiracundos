@@ -33,8 +33,22 @@
       background: #2196f3;
       color: #ffffff;
       padding: 24px 20px;
-      text-align: center;
       border-radius: 6px 6px 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+
+    /* =====================================================
+       SEÑALIZACIÓN: ESTILO PARA EL LOGO EN EL ENCABEZADO
+       ===================================================== */
+    .logo-banda {
+      max-height: 85px;
+      width: auto;
+      border-radius: 6px;
     }
 
     .encabezado h1 {
@@ -309,8 +323,15 @@
 <body>
 
   <header class="encabezado">
-    <h1>Los Iracundos</h1>
-    <p>Proyecto de Desarrollo de Plataformas Web</p>
+    <!-- =================================================================== -->
+    <!-- SEÑALIZACIÓN: LOGO DE LA BANDA EN EL ENCABEZADO                     -->
+    <!-- =================================================================== -->
+    <img src="los_iracundos_logo.jpg" alt="Logo oficial de Los Iracundos" class="logo-banda">
+
+    <div>
+      <h1>Los Iracundos</h1>
+      <p>Proyecto de Desarrollo de Plataformas Web</p>
+    </div>
   </header>
 
   <nav class="menu">
@@ -401,6 +422,7 @@
     <h2>Audios en MP3</h2>
     <p>Escucha tres de los temas más emblemáticos de Los Iracundos directamente en el navegador:</p>
 
+    <ul class="lista-items">
       <li class="tarjeta-audio">
         <strong>1. Fábula</strong>
         <p class="info-pista">Álbum: <em>Incomparables (1980)</em></p>
@@ -460,7 +482,7 @@
       <li><strong>Gol! de Los Iracundos</strong> (1977)</li>
       <li><strong>Pasión y vida</strong> (1978)</li>
       <li><strong>Amor y fe</strong> (1979)</li>
-      <li><strong>Incomparables </strong> (1980)</li>
+      <li><strong>Incomparables</strong> (1980)</li>
       <li><strong>Fue tormenta de verano</strong> (1981)</li>
       <li><strong>40 grados</strong> (1982)</li>
       <li><strong>Apróntate a vivir</strong> (1983)</li>
@@ -479,7 +501,6 @@
       <li><strong>Éxitos de oro</strong> (2024)</li>
       <li><strong>Los Iracundos ft Negro Videla</strong> (2024)</li>
       <li><strong>Los Iracundos Sabor a Cumbia</strong> (2025)</li>
-      
     </ul>
 
     <a class="volver" href="#inicio">← Volver al inicio</a>
@@ -588,7 +609,7 @@
       Mucho más
     </p>
 
-<h3>Puerto Montt</h3>
+    <h3>Puerto Montt</h3>
     <p>
       Sentado frente al mar<br>
       Mil besos yo le di<br>
