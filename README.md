@@ -304,12 +304,12 @@
     <p>El repertorio musical del grupo se basa en géneros como el pop, la canción melódica, la balada romántica, el rock, la nueva ola, la música instrumental y la música beat.</p>
 
     <h3>Año de inicio de su carrera</h3>
-    <p>El grupo inició su carrera bajo el nombre de Los Blue Kings entre 1958 hasta el año de 1963, cuando adoptaron el nombre de Los Iracundos, el cual ha sido el nombre del grupo hasta ahora.</p>
+    <p>El grupo inició su carrera bajo el nombre de Los Blue Kings entre 1958 hasta el año de 1963, después en 1964 adoptaron el nombre de Los Iracundos, el cual ha sido el nombre de la agrupación hasta el día de hoy.</p>
 
     <h3>Fotografía del grupo</h3>
     <figure class="foto-biografia">
       <img src="Los_Iracundos_en_1968.jpg" alt="Los Iracundos en 1968">
-      <figcaption>El grupo en 1968.</figcaption>
+      <figcaption>Los Iracundos en 1968.</figcaption>
     </figure>
 
     <a class="volver" href="#inicio">← Volver al inicio</a>
@@ -416,80 +416,80 @@
       Puerto Montt<br>
       Puerto Montt<br>
       Me alejé de ti<br>
-      Sin saber por qué
+      Sin saber por qué<br>
 
       Y yo la dejé<br>
       Sola frente al mar<br>
       Bajo el cielo azul<br>
-      De Puerto Montt
+      De Puerto Montt<br>
 
       La-la-la, la, la<br>
       La-la-la, la, la<br>
       La-la-la, la, la<br>
-      La-la-la
+      La-la-la<br>
 
       La-la-la, la, la<br>
-      La-la-la, la, la
+      La-la-la, la, la<br>
     </p>
 
     <h3>Fábula</h3>
     <p>
-      El Sol sobre mi cama, hoy me vuelve a despertar
-      Y yo quiero dormir, dormir, dormir para olvidar
-      Que vivo en un desierto de cemento y soledad
+      El Sol sobre mi cama, hoy me vuelve a despertar<br>
+      Y yo quiero dormir, dormir, dormir para olvidar<br>
+      Que vivo en un desierto de cemento y soledad<br>
 
-      Y tú
-      Entre brindis, noches
-      Y amantes
-      De ese mundo loco
-      Y errante
-      No vas a volver
-      Y yo sufriré
-      Resignado al ver
-      Que lo nuestro fue
+      Y tú<br>
+      Entre brindis, noches<br>
+      Y amantes<br>
+      De ese mundo loco<br>
+      Y errante<br>
+      No vas a volver<br>
+      Y yo sufriré<br>
+      Resignado al ver<br>
+      Que lo nuestro fue<br>
 
-      Fábula
-      De un pobre tonto que siempre te amo
-      Y que sus puertas nunca más cerró
-      Con la esperanza de volverte a ver
+      Fábula<br>
+      De un pobre tonto que siempre te amo<br>
+      Y que sus puertas nunca más cerró<br>
+      Con la esperanza de volverte a ver<br>
 
-      Fábula
-      De una muchacha que siempre creyó
-      En cuentos de hadas y que confundió
-      Las madrugadas con amanecer
+      Fábula<br>
+      De una muchacha que siempre creyó<br>
+      En cuentos de hadas y que confundió<br>
+      Las madrugadas con amanecer<br>
 
-      Fábula
-      La-la-la-la-la-la-la-la-la-la
-      La-la-la-la-la-la-la-la-la-la
-      La-la-la-la-la-la-la-la-la-la
+      Fábula<br>
+      La-la-la-la-la-la-la-la-la-la<br>
+      La-la-la-la-la-la-la-la-la-la<br>
+      La-la-la-la-la-la-la-la-la-la<br>
 
-      Mi vida ya no es vida yo no sé que voy a hacer
-      Rogando a Dios le pido, me devuelva tu querer
-      Me estoy volviendo loco de sufrir y de llorar
+      Mi vida ya no es vida yo no sé que voy a hacer<br>
+      Rogando a Dios le pido, me devuelva tu querer<br>
+      Me estoy volviendo loco de sufrir y de llorar<br>
 
-      Y tú
-      Entre brindis, noches y amantes
-      De ese mundo loco
-      Y errante
-      No vas a volver
-      Y yo sufriré
-      Resignado al ver
-      Que lo nuestro fue
+      Y tú<br>
+      Entre brindis, noches y amantes<br>
+      De ese mundo loco<br>
+      Y errante<br>
+      No vas a volver<br>
+      Y yo sufriré<br>
+      Resignado al ver<br>
+      Que lo nuestro fue<br>
 
-      Fábula
-      De un pobre tonto que siempre te amo
-      Y que sus puertas nunca más cerró
-      Con la esperanza de volverte a ver
+      Fábula<br>
+      De un pobre tonto que siempre te amo<br>
+      Y que sus puertas nunca más cerró<br>
+      Con la esperanza de volverte a ver<br>
 
-      Fábula
-      De una muchacha que siempre creyó
-      En cuentos de hadas y que confundió
-      Las madrugadas con amanecer
+      Fábula<br>
+      De una muchacha que siempre creyó<br>
+      En cuentos de hadas y que confundió<br>
+      Las madrugadas con amanecer<br>
 
-      Fábula
-      La-la-la-la-la-la-la-la-la-la
-      La-la-la-la-la-la-la-la-la-la
-      La-la-la-la-la-la-la-la-la-la
+      Fábula<br>
+      La-la-la-la-la-la-la-la-la-la<br>
+      La-la-la-la-la-la-la-la-la-la<br>
+      La-la-la-la-la-la-la-la-la-la<br>
     </p>
 
     <h3>Te lo pido de rodillas</h3>
