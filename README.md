@@ -244,11 +244,11 @@
     <h3>Año de inicio de su carrera</h3>
     <p>El grupo inicio su carrera desde bajo el nombre de Los Blue Kings entre 1958 hasta el año de 1963 cuando adoptaron el nombre de Los Iracundos el cual ha sido el nombre del grupo hasta ahora.</p>
 
-    <h3>Año de inicio de su carrera</h3>
+    <h3>Fotografía del grupo</h3>
     El grupo en 1968.
-<p>
-<img src="Los_Iracundos_en_1968.jpg" alt="Los Iracundos en 1968" width="300">
-</p>
+    <p>
+    <img src="Los_Iracundos_en_1968.jpg" alt="Los Iracundos en 1968"width="300">
+    </p>
 
     <a class="volver" href="#inicio">← Volver al inicio</a>
   </section>
@@ -260,16 +260,16 @@
 
     <div class="galeria-grid">
       <div class="tarjeta-foto">
-        <div class="marco-foto">1958 - Los Blue Kings</div>
-        <p>Inicios de la banda en Paysandú, Uruguay.</p>
+        <div class="marco-foto">Los Blue Kings entre 1958 - 1963</div>
+        <p><img src="Los_Blue_Kings_entre_1958-1963.jpg" alt="Los Blue Kings entre 1958 - 1963"width="300"></p>
       </div>
       <div class="tarjeta-foto">
-        <div class="marco-foto">1964 - RCA Victor</div>
-        <p>Consolidación del nombre Los Iracundos en Argentina.</p>
+        <div class="marco-foto">Los Iracundos en 1974</div>
+        <p><img src="Los_Iracundos_en_1974.jpg" alt="Los Iracundos en 1968"width="300"></p>
       </div>
       <div class="tarjeta-foto">
-        <div class="marco-foto">1968 - Puerto Montt</div>
-        <p>Éxito internacional y giras por toda América y Europa.</p>
+        <div class="marco-foto">Los Iracundos en 1982</div>
+        <p><img src="Los_Iracundos_en_1982.jpg" alt="Los Iracundos en 1982"width="300"></p>
       </div>
     </div>
 
