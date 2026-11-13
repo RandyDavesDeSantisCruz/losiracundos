@@ -295,7 +295,7 @@
           <strong>1. Fábula (1972)</strong>
           <p class="info-pista">Álbum: <em>Los Iracundos</em></p>
           <audio controls preload="none">
-            <source src="fabula.mp3" type="audio/mpeg">
+            <source src="fábula.mp3" type="audio/mpeg">
             Tu navegador no soporta la reproducción de audio HTML5.
           </audio>
           <div class="enlaces-cruzados">
@@ -406,7 +406,7 @@
         <div class="reproductor-letra">
           <span>Escuchar canción mientras lees:</span>
           <audio controls preload="none">
-            <source src="fabula.mp3" type="audio/mpeg">
+            <source src="fábula.mp3" type="audio/mpeg">
             Tu navegador no soporta la reproducción de audio HTML5.
           </audio>
         </div>
