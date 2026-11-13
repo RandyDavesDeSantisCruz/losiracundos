@@ -293,7 +293,7 @@
       <div class="lista-audios">
         <div id="pista-fabula" class="tarjeta-audio">
           <strong>1. Fábula (1972)</strong>
-          <p class="info-pista">Álbum: <em>Los Iracundos</em></p>
+          <p class="info-pista">Álbum: <em>Los Iracundos (1968)</em></p>
           <audio controls preload="none">
             <source src="fábula.mp3" type="audio/mpeg">
             Tu navegador no soporta la reproducción de audio HTML5.
@@ -306,7 +306,7 @@
 
         <div id="pista-te-lo-pido" class="tarjeta-audio">
           <strong>2. Te lo pido de rodillas (1970)</strong>
-          <p class="info-pista">Álbum: <em>Los Iracundos</em></p>
+          <p class="info-pista">Álbum: <em>Te lo pido de rodillas (1973)</em></p>
           <audio controls preload="none">
             <source src="te_lo_pido_de_rodillas.mp3" type="audio/mpeg">
             Tu navegador no soporta la reproducción de audio HTML5.
@@ -320,7 +320,7 @@
 
         <div id="pista-puerto-montt" class="tarjeta-audio">
           <strong>3. Puerto Montt (1968)</strong>
-          <p class="info-pista">Álbum: <em>Puerto Montt</em></p>
+          <p class="info-pista">Álbum: <em>Los Iracundos (1968)</em></p>
           <audio controls preload="none">
             <source src="puerto_montt.mp3" type="audio/mpeg">
             Tu navegador no soporta la reproducción de audio HTML5.
