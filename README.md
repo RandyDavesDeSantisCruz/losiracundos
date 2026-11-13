@@ -144,7 +144,7 @@
           </div>
           <span class="anio-album">1967 • RCA Victor</span>
           <h3>Los Iracundos en Roma</h3>
-          <p><strong>Temas notables:</strong> <em>Es la lluvia que cae</em>, <em>El desengaño</em>, <em>Calla</em>.</p>
+          <p><strong>Temas notables:</strong> <em>Es la lluvia que cae</em>, <em>Sé que no volverás</em>.</p>
         </div>
 
         <div class="tarjeta-album">
@@ -152,8 +152,8 @@
             <div class="disco-mini"></div>
           </div>
           <span class="anio-album">1968 • RCA Victor</span>
-          <h3>Los Iracundos (Puerto Montt)</h3>
-          <p><strong>Temas notables:</strong> <em>Puerto Montt</em>, <em>Felicidad, felicidad</em>, <em>Ven que estoy hirviendo</em>.</p>
+          <h3>Los Iracundos</h3>
+          <p><strong>Temas notables:</strong> <em>Puerto Montt</em>, <em>Solamente tú</em>.</p>
         </div>
 
         <div class="tarjeta-album">
@@ -162,7 +162,7 @@
           </div>
           <span class="anio-album">1971 • RCA Victor</span>
           <h3>Agua con amor</h3>
-          <p><strong>Temas notables:</strong> <em>Chiquilina</em>, <em>Agua con amor</em>, <em>Marionetas de cartón</em>.</p>
+          <p><strong>Temas notables:</strong> <em>Agua con amor</em>, <em>Un día distinto</em>.</p>
         </div>
 
         <div class="tarjeta-album">
@@ -171,25 +171,25 @@
           </div>
           <span class="anio-album">1973 • RCA Victor</span>
           <h3>Te lo pido de rodillas</h3>
-          <p><strong>Temas notables:</strong> <em>Te lo pido de rodillas</em>, <em>Va cayendo una lágrima</em>.</p>
+          <p><strong>Temas notables:</strong> <em>Te lo pido de rodillas</em>, <em>Alguien que se cruce en mi camino</em>.</p>
         </div>
 
         <div class="tarjeta-album">
           <div class="portada-vinilo dorada">
             <div class="disco-mini"></div>
           </div>
-          <span class="anio-album">1980 • Microfón</span>
+          <span class="anio-album">1980 • RCA Victor</span>
           <h3>Incomparables</h3>
-          <p><strong>Temas notables:</strong> <em>Fábula</em>, <em>Aprontate a vivir</em>, <em>Infidelidad es tu traición</em>.</p>
+          <p><strong>Temas notables:</strong> <em>Préstame un te quiero</em>, <em>Miró el teléfono</em>.</p>
         </div>
 
         <div class="tarjeta-album">
           <div class="portada-vinilo">
             <div class="disco-mini"></div>
           </div>
-          <span class="anio-album">1985 • RCA</span>
+          <span class="anio-album">1985 • RCA Victor</span>
           <h3>Tú con él</h3>
-          <p><strong>Temas notables:</strong> <em>Tú con él</em>, <em>Las puertas del olvido</em>, <em>Me voy o me quedo</em>.</p>
+          <p><strong>Temas notables:</strong> <em>Tú con él</em>, <em>Las puertas del olvido</em>.</p>
         </div>
       </div>
 
@@ -292,8 +292,8 @@
 
       <div class="lista-audios">
         <div id="pista-fabula" class="tarjeta-audio">
-          <strong>1. Fábula (1972)</strong>
-          <p class="info-pista">Álbum: <em>Incomparables (1980)</em></p>
+          <strong>1. Fábula (1979)</strong>
+          <p class="info-pista">Álbum: <em>Fábula (1979)</em></p>
           <audio controls preload="none">
             <source src="fábula.mp3" type="audio/mpeg">
             Tu navegador no soporta la reproducción de audio HTML5.
@@ -335,21 +335,19 @@
       <a class="volver" href="#inicio">← Volver al inicio</a>
     </section>
 
-    <!-- CATÁLOGO DE CANCIONES MÁS NOTABLES -->
+    <!-- CATÁLOGO DE CANCIONES (SOLO LAS 3 CANCIONES ORIGINALES) -->
     <section id="musica" class="pagina detalle" hidden>
-      <h2>Catálogo — Canciones más notables</h2>
-      <p>Selección de los temas más icónicos e inolvidables de Los Iracundos:</p>
-
+      <h2>Música — Catálogo musical y discografía</h2>
       <ul class="lista-items">
         <li>
-          <strong>Fábula</strong> (1972) — Álbum: <em>Incomparables (1980)</em>
+          <strong>Fábula</strong> (1979) — Álbum: <em>Incomparables (1980)</em>
           <div class="enlaces-cruzados">
             <a href="#pista-fabula">Escuchar MP3</a>
             <a href="#letra-fabula">Ver letra con audio</a>
           </div>
         </li>
         <li>
-          <strong>Te lo pido de rodillas</strong> (1970) — Álbum: <em>Te lo pido de rodillas (1973)</em>
+          <strong>Te lo pido de rodillas</strong> (1973) — Álbum: <em>Te lo pido de rodillas (1973)</em>
           <div class="enlaces-cruzados">
             <a href="#pista-te-lo-pido">Escuchar MP3</a>
             <a href="#letra-te-lo-pido">Ver letra con audio</a>
@@ -362,12 +360,6 @@
             <a href="#letra-puerto-montt">Ver letra con audio</a>
           </div>
         </li>
-        <li><strong>Es la lluvia que cae</strong> (1967) — Álbum: <em>Los Iracundos en Roma (1967)</em></li>
-        <li><strong>Va cayendo una lágrima</strong> (1970) — Álbum: <em>Te lo pido de rodillas (1973)</em></li>
-        <li><strong>Chiquilina</strong> (1971) — Álbum: <em>Agua con amor (1971)</em></li>
-        <li><strong>Aprontate a vivir</strong> (1979) — Álbum: <em>Incomparables (1980)</em></li>
-        <li><strong>Tú con él</strong> (1985) — Álbum: <em>Tú con él (1985)</em></li>
-        <li><strong>Las puertas del olvido</strong> (1985) — Álbum: <em>Tú con él (1985)</em></li>
       </ul>
 
       <a class="volver" href="#inicio">← Volver al inicio</a>
@@ -392,7 +384,7 @@
     <!-- LETRAS DE CANCIONES -->
     <section id="letras" class="pagina detalle" hidden>
       <h2>Letras de canciones</h2>
-      <p>Reproduce la pista asociada a cada canción mientras sigues su letra organizada por estrofas:</p>
+      <p>Reproduce la pista asociada a cada canción y consulta su reseña, fragmento destacado y enlace a la letra completa:</p>
 
       <div class="indice-canciones">
         <span>Saltar a la canción:</span>
@@ -420,52 +412,13 @@
         </div>
 
         <div class="texto-letra">
+          <p><strong>Sobre la canción:</strong> Balada melancólica sobre la soledad tras el abandono y la espera constante por un amor que se perdió en la vida nocturna, comparando esa ilusión con una fábula.</p>
           <p>
-            El Sol sobre mi cama hoy me vuelve a despertar<br>
-            Y yo quiero dormir, dormir, dormir para olvidar<br>
-            Que vivo en un desierto de cemento y soledad.
-          </p>
-          <p>
-            Y tú, entre brindis, noches y amantes<br>
-            De ese mundo loco y errante<br>
-            No vas a volver<br>
-            Y yo sufriré<br>
-            Resignado al ver<br>
-            Que lo nuestro fue...
-          </p>
-          <p>
-            Fábula, de un pobre tonto que siempre te amó<br>
+            <em>«Fábula, de un pobre tonto que siempre te amó<br>
             Y que sus puertas nunca más cerró<br>
-            Con la esperanza de volverte a ver.
+            Con la esperanza de volverte a ver.»</em> — <strong>Los Iracundos</strong>
           </p>
-          <p>
-            Fábula, de una muchacha que siempre creyó<br>
-            En cuentos de hadas y que confundió<br>
-            Las madrugadas con amanecer.<br>
-            Fábula, la-la-la-la-la-la-la-la-la-la.
-          </p>
-          <p>
-            Mi vida ya no es vida, yo no sé qué voy a hacer<br>
-            Rogando a Dios le pido me devuelva tu querer<br>
-            Me estoy volviendo loco de sufrir y de llorar.
-          </p>
-          <p>
-            Y tú, entre brindis, noches y amantes<br>
-            De ese mundo loco y errante<br>
-            No vas a volver<br>
-            Y yo sufriré<br>
-            Resignado al ver<br>
-            Que lo nuestro fue...
-          </p>
-          <p>
-            Fábula, de un pobre tonto que siempre te amó<br>
-            Y que sus puertas nunca más cerró<br>
-            Con la esperanza de volverte a ver.<br>
-            Fábula, de una muchacha que siempre creyó<br>
-            En cuentos de hadas y que confundió<br>
-            Las madrugadas con amanecer.<br>
-            Fábula, la-la-la-la-la-la-la-la-la-la.
-          </p>
+          <p>Encuentra la letra completa buscando <a href="https://www.google.com/search?q=Fabula+Los+Iracundos+letra" target="_blank" rel="noopener noreferrer">«Fábula Los Iracundos letra» en Google</a>.</p>
         </div>
 
         <div class="enlaces-cruzados">
@@ -493,25 +446,13 @@
         </div>
 
         <div class="texto-letra">
+          <p><strong>Sobre la canción:</strong> Súplica romántica que retrata la llamada tras un año de distanciamiento para pedir una segunda oportunidad y reavivar el vínculo amoroso.</p>
           <p>
-            Te llamé porque hace un año que no hablamos<br>
-            Para romper aquel adiós que nos juramos<br>
-            Voy a pedirte de rodillas que regreses junto a mí<br>
+            <em>«Voy a pedirte de rodillas que regreses junto a mí<br>
             Porque soy de ti<br>
-            Y te quiero como antes, mucho más.
+            Y te quiero como antes, mucho más.»</em> — <strong>Los Iracundos</strong>
           </p>
-          <p>
-            Te llamé porque te quiero todavía<br>
-            Porque este amor me atormenta noche y día<br>
-            Voy a pedirte de rodillas que regreses junto a mí<br>
-            Porque soy de ti<br>
-            Y te quiero como antes, mucho más.
-          </p>
-          <p>
-            Voy a pedirte de rodillas que regreses junto a mí<br>
-            Porque soy de ti<br>
-            Y te quiero como antes, mucho más.
-          </p>
+          <p>Encuentra la letra completa buscando <a href="https://www.google.com/search?q=Te+lo+pido+de+rodillas+Los+Iracundos+letra" target="_blank" rel="noopener noreferrer">«Te lo pido de rodillas Los Iracundos letra» en Google</a>.</p>
         </div>
 
         <div class="enlaces-cruzados">
@@ -540,60 +481,14 @@
         </div>
 
         <div class="texto-letra">
+          <p><strong>Sobre la canción:</strong> El mayor éxito internacional del grupo, inspirado en la ciudad portuaria del sur de Chile, que evoca la nostalgia y el arrepentimiento tras una despedida frente al mar.</p>
           <p>
-            Sentado frente al mar<br>
-            Mil besos yo le di<br>
-            Después le dije adiós<br>
-            Todo termina aquí<br>
-            Y ella me dijo así.
-          </p>
-          <p>
-            Abrázame y verás<br>
-            Que el mundo es de los dos<br>
-            Salgamos a correr<br>
-            Busquemos el ayer<br>
-            Que nos hizo feliz.
-          </p>
-          <p>
-            Puerto Montt, Puerto Montt<br>
+            <em>«Puerto Montt, Puerto Montt<br>
             Me alejé de ti<br>
             Sin saber por qué<br>
-            Y yo la dejé<br>
-            Sola frente al mar<br>
-            Bajo el cielo azul<br>
-            De Puerto Montt.
+            Y yo la dejé sola frente al mar»</em> — <strong>Los Iracundos</strong>
           </p>
-          <p>
-            Mil violines en su voz<br>
-            Susurraron un adiós<br>
-            Y un amor que se quedó<br>
-            Perdido frente al mar<br>
-            Y el viento lo llevó.
-          </p>
-          <p>
-            Silencio sin piedad<br>
-            Encontraré al volver<br>
-            Mas en la soledad<br>
-            Su voz me gritará:<br>
-            «No, no te vayas de mí».
-          </p>
-          <p>
-            Puerto Montt, Puerto Montt<br>
-            Me alejé de ti<br>
-            Sin saber por qué<br>
-            Y yo la dejé<br>
-            Sola frente al mar<br>
-            Bajo el cielo azul<br>
-            De Puerto Montt.
-          </p>
-          <p>
-            La-la-la, la, la<br>
-            La-la-la, la, la<br>
-            La-la-la, la, la<br>
-            La-la-la<br>
-            La-la-la, la, la<br>
-            La-la-la, la, la.
-          </p>
+          <p>Encuentra la letra completa buscando <a href="https://www.google.com/search?q=Puerto+Montt+Los+Iracundos+letra" target="_blank" rel="noopener noreferrer">«Puerto Montt Los Iracundos letra» en Google</a>.</p>
         </div>
 
         <div class="enlaces-cruzados">
@@ -706,4 +601,4 @@
   </script>
 
 </body>
-</html>
+</html>2
