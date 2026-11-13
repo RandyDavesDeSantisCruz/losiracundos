@@ -333,6 +333,10 @@
         <img src="Los_Iracundos_en_1982.jpg" alt="Los Iracundos en 1982">
         <p>Los Iracundos en 1982</p>
       </div>
+      <div class="tarjeta-foto">
+        <img src="Los_Iracundos_en_1995.jpg" alt="Los Iracundos en 1995">
+        <p>Los Iracundos en 1995</p>
+      </div>
     </div>
 
     <a class="volver" href="#inicio">← Volver al inicio</a>
@@ -373,7 +377,7 @@
   <section id="letras" class="pagina detalle" hidden>
     <h2>Letras de canciones</h2>
 
-    <h3>Puerto Montt (Fragmento)</h3>
+    <h3>Puerto Montt</h3>
     <p>
       Sentado frente al mar<br>
       Mil besos yo le di<br>
@@ -412,20 +416,80 @@
       Puerto Montt<br>
       Puerto Montt<br>
       Me alejé de ti<br>
-      Sin saber por qué<br>
+      Sin saber por qué
 
       Y yo la dejé<br>
       Sola frente al mar<br>
       Bajo el cielo azul<br>
-      De Puerto Montt<br>
+      De Puerto Montt
 
       La-la-la, la, la<br>
       La-la-la, la, la<br>
       La-la-la, la, la<br>
-      La-la-la<br>
+      La-la-la
 
       La-la-la, la, la<br>
       La-la-la, la, la
+    </p>
+
+    <h3>Fábula</h3>
+    <p>
+      El Sol sobre mi cama, hoy me vuelve a despertar
+      Y yo quiero dormir, dormir, dormir para olvidar
+      Que vivo en un desierto de cemento y soledad
+
+      Y tú
+      Entre brindis, noches
+      Y amantes
+      De ese mundo loco
+      Y errante
+      No vas a volver
+      Y yo sufriré
+      Resignado al ver
+      Que lo nuestro fue
+
+      Fábula
+      De un pobre tonto que siempre te amo
+      Y que sus puertas nunca más cerró
+      Con la esperanza de volverte a ver
+
+      Fábula
+      De una muchacha que siempre creyó
+      En cuentos de hadas y que confundió
+      Las madrugadas con amanecer
+
+      Fábula
+      La-la-la-la-la-la-la-la-la-la
+      La-la-la-la-la-la-la-la-la-la
+      La-la-la-la-la-la-la-la-la-la
+
+      Mi vida ya no es vida yo no sé que voy a hacer
+      Rogando a Dios le pido, me devuelva tu querer
+      Me estoy volviendo loco de sufrir y de llorar
+
+      Y tú
+      Entre brindis, noches y amantes
+      De ese mundo loco
+      Y errante
+      No vas a volver
+      Y yo sufriré
+      Resignado al ver
+      Que lo nuestro fue
+
+      Fábula
+      De un pobre tonto que siempre te amo
+      Y que sus puertas nunca más cerró
+      Con la esperanza de volverte a ver
+
+      Fábula
+      De una muchacha que siempre creyó
+      En cuentos de hadas y que confundió
+      Las madrugadas con amanecer
+
+      Fábula
+      La-la-la-la-la-la-la-la-la-la
+      La-la-la-la-la-la-la-la-la-la
+      La-la-la-la-la-la-la-la-la-la
     </p>
 
     <h3>Te lo pido de rodillas</h3>
