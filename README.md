@@ -335,7 +335,7 @@
       <a class="volver" href="#inicio">← Volver al inicio</a>
     </section>
 
-    <!-- CATÁLOGO DE CANCIONES -->
+    <!-- CATÁLOGO DE CANCIONES (SOLO LAS 3 CANCIONES PRINCIPALES) -->
     <section id="musica" class="pagina detalle" hidden>
       <h2>Música — Catálogo musical y discografía</h2>
       <ul class="lista-items">
@@ -360,10 +360,6 @@
             <a href="#letra-fabula">Ver letra con audio</a>
           </div>
         </li>
-        <li><strong>Es la lluvia que cae</strong> (1967) — Álbum: <em>Los Iracundos en Roma</em></li>
-        <li><strong>Tú con él</strong> (1985) — Álbum: <em>Tú con él</em></li>
-        <li><strong>Chiquilina</strong> (1971) — Álbum: <em>Agua con amor</em></li>
-        <li><strong>Aprontate a vivir</strong> (1979) — Álbum: <em>Amor y fe</em></li>
       </ul>
 
       <a class="volver" href="#inicio">← Volver al inicio</a>
