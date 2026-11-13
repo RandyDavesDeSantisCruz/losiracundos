@@ -164,6 +164,14 @@
       border-radius: 4px;
     }
 
+    .lista-items .enlace-video {
+      display: inline-block;
+      margin-top: 6px;
+      color: #1565c0;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
     /* Cuadrícula y tarjetas de la Galería */
     .galeria-grid {
       display: grid;
@@ -332,9 +340,22 @@
   <section id="videos" class="pagina detalle" hidden>
     <h2>Videos</h2>
     <ul class="lista-items">
-      <li><strong>Puerto Montt (Presentación en vivo)</strong> — Clásico inolvidable interpretado por Eduardo Franco.</li>
-      <li><strong>Te lo pido de rodillas (Video musical)</strong> — Uno de los temas más emblemáticos de los años 70.</li>
-      <li><strong>Tú con él (Actuación televisiva)</strong> — Éxito de la etapa de los años 80.</li>
+      <li>
+        Fabula - los iracundos<br>
+        <a class="enlace-video" href="https://www.youtube.com/watch?v=ujLw6x4pMdU" target="_blank" rel="noopener noreferrer">Ver video aquí</a>
+      </li>
+      <li>
+        los iracundos-te lo pido de rodillas<br>
+        <a class="enlace-video" href="https://www.youtube.com/watch?v=KFl0kAQzcwg" target="_blank" rel="noopener noreferrer">Ver video aquí</a>
+      </li>
+      <li>
+        Aprontate a vivir - los iracundos<br>
+        <a class="enlace-video" href="https://www.youtube.com/watch?v=uUB9hhogtiw" target="_blank" rel="noopener noreferrer">Ver video aquí</a>
+      </li>
+      <li>
+        los iracundos-te lo pido de rodillas<br>
+        <a class="enlace-video" href="AQUI_VA_EL_ENLACE_DEL_VIDEO" target="_blank" rel="noopener noreferrer">Ver video aquí</a>
+      </li>
     </ul>
 
     <a class="volver" href="#inicio">← Volver al inicio</a>
