@@ -132,10 +132,10 @@
       <a class="volver" href="#inicio">← Volver al inicio</a>
     </section>
 
-    <!-- ÁLBUMES MUSICALES -->
+    <!-- ÁLBUMES NOTABLES -->
     <section id="albumes" class="pagina detalle" hidden>
-      <h2>Álbumes Musicales</h2>
-      <p>Discografía destacada en vinilo LP que consolidó el sonido romántico y melódico de Los Iracundos en toda Hispanoamérica:</p>
+      <h2>Álbumes Notables</h2>
+      <p>Los discos LP más emblemáticos y exitosos en la historia de Los Iracundos:</p>
 
       <div class="albumes-grid">
         <div class="tarjeta-album">
@@ -144,7 +144,7 @@
           </div>
           <span class="anio-album">1967 • RCA Victor</span>
           <h3>Los Iracundos en Roma</h3>
-          <p><strong>Temas destacados:</strong> <em>Es la lluvia que cae</em>, <em>Calla</em>, <em>El desengaño</em>.</p>
+          <p><strong>Temas notables:</strong> <em>Es la lluvia que cae</em>, <em>El desengaño</em>, <em>Calla</em>.</p>
         </div>
 
         <div class="tarjeta-album">
@@ -152,17 +152,8 @@
             <div class="disco-mini"></div>
           </div>
           <span class="anio-album">1968 • RCA Victor</span>
-          <h3>Puerto Montt</h3>
-          <p><strong>Temas destacados:</strong> <em>Puerto Montt</em>, <em>Ven que estoy hirviendo</em>, <em>Felicidad, felicidad</em>.</p>
-        </div>
-
-        <div class="tarjeta-album">
-          <div class="portada-vinilo">
-            <div class="disco-mini"></div>
-          </div>
-          <span class="anio-album">1970 • RCA Victor</span>
-          <h3>Los Iracundos (Te lo pido de rodillas)</h3>
-          <p><strong>Temas destacados:</strong> <em>Te lo pido de rodillas</em>, <em>Va cayendo una lágrima</em>.</p>
+          <h3>Los Iracundos (Puerto Montt)</h3>
+          <p><strong>Temas notables:</strong> <em>Puerto Montt</em>, <em>Felicidad, felicidad</em>, <em>Ven que estoy hirviendo</em>.</p>
         </div>
 
         <div class="tarjeta-album">
@@ -171,16 +162,25 @@
           </div>
           <span class="anio-album">1971 • RCA Victor</span>
           <h3>Agua con amor</h3>
-          <p><strong>Temas destacados:</strong> <em>Chiquilina</em>, <em>Agua con amor</em>, <em>Marionetas de cartón</em>.</p>
+          <p><strong>Temas notables:</strong> <em>Chiquilina</em>, <em>Agua con amor</em>, <em>Marionetas de cartón</em>.</p>
+        </div>
+
+        <div class="tarjeta-album">
+          <div class="portada-vinilo">
+            <div class="disco-mini"></div>
+          </div>
+          <span class="anio-album">1973 • RCA Victor</span>
+          <h3>Te lo pido de rodillas</h3>
+          <p><strong>Temas notables:</strong> <em>Te lo pido de rodillas</em>, <em>Va cayendo una lágrima</em>.</p>
         </div>
 
         <div class="tarjeta-album">
           <div class="portada-vinilo dorada">
             <div class="disco-mini"></div>
           </div>
-          <span class="anio-album">1979 • Microfón</span>
-          <h3>Amor y fe</h3>
-          <p><strong>Temas destacados:</strong> <em>Aprontate a vivir</em>, <em>Por ese amor</em>, <em>Infidelidad es tu traición</em>.</p>
+          <span class="anio-album">1980 • Microfón</span>
+          <h3>Incomparables</h3>
+          <p><strong>Temas notables:</strong> <em>Fábula</em>, <em>Aprontate a vivir</em>, <em>Infidelidad es tu traición</em>.</p>
         </div>
 
         <div class="tarjeta-album">
@@ -189,7 +189,7 @@
           </div>
           <span class="anio-album">1985 • RCA</span>
           <h3>Tú con él</h3>
-          <p><strong>Temas destacados:</strong> <em>Tú con él</em>, <em>Las puertas del olvido</em>, <em>Me voy o me quedo</em>.</p>
+          <p><strong>Temas notables:</strong> <em>Tú con él</em>, <em>Las puertas del olvido</em>, <em>Me voy o me quedo</em>.</p>
         </div>
       </div>
 
@@ -335,31 +335,39 @@
       <a class="volver" href="#inicio">← Volver al inicio</a>
     </section>
 
-    <!-- CATÁLOGO DE CANCIONES -->
+    <!-- CATÁLOGO DE CANCIONES MÁS NOTABLES -->
     <section id="musica" class="pagina detalle" hidden>
-      <h2>Música — Catálogo musical y discografía</h2>
+      <h2>Catálogo — Canciones más notables</h2>
+      <p>Selección de los temas más icónicos e inolvidables de Los Iracundos:</p>
+
       <ul class="lista-items">
         <li>
-          <strong>Fábula</strong> (1972) — Álbum: <em>Los Iracundos</em>
+          <strong>Fábula</strong> (1972) — Álbum: <em>Incomparables (1980)</em>
           <div class="enlaces-cruzados">
             <a href="#pista-fabula">Escuchar MP3</a>
             <a href="#letra-fabula">Ver letra con audio</a>
           </div>
         </li>
         <li>
-          <strong>Te lo pido de rodillas</strong> (1970) — Álbum: <em>Los Iracundos</em>
+          <strong>Te lo pido de rodillas</strong> (1970) — Álbum: <em>Te lo pido de rodillas (1973)</em>
           <div class="enlaces-cruzados">
             <a href="#pista-te-lo-pido">Escuchar MP3</a>
             <a href="#letra-te-lo-pido">Ver letra con audio</a>
           </div>
         </li>
         <li>
-          <strong>Puerto Montt</strong> (1968) — Álbum: <em>Puerto Montt</em>
+          <strong>Puerto Montt</strong> (1968) — Álbum: <em>Los Iracundos (1968)</em>
           <div class="enlaces-cruzados">
             <a href="#pista-puerto-montt">Escuchar MP3</a>
             <a href="#letra-puerto-montt">Ver letra con audio</a>
           </div>
         </li>
+        <li><strong>Es la lluvia que cae</strong> (1967) — Álbum: <em>Los Iracundos en Roma (1967)</em></li>
+        <li><strong>Va cayendo una lágrima</strong> (1970) — Álbum: <em>Te lo pido de rodillas (1973)</em></li>
+        <li><strong>Chiquilina</strong> (1971) — Álbum: <em>Agua con amor (1971)</em></li>
+        <li><strong>Aprontate a vivir</strong> (1979) — Álbum: <em>Incomparables (1980)</em></li>
+        <li><strong>Tú con él</strong> (1985) — Álbum: <em>Tú con él (1985)</em></li>
+        <li><strong>Las puertas del olvido</strong> (1985) — Álbum: <em>Tú con él (1985)</em></li>
       </ul>
 
       <a class="volver" href="#inicio">← Volver al inicio</a>
