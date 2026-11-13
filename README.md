@@ -412,7 +412,7 @@
 
       <li class="tarjeta-audio">
         <strong>2. Te lo pido de rodillas</strong>
-        <p class="info-pista">Álbum: <em>Los Iracundos (1973)</em></p>
+        <p class="info-pista">Álbum: <em>Te Lo Pido de Rodillas (1973)</em></p>
         <audio controls preload="none">
           <source src="te_lo_pido_de_rodillas.mp3" type="audio/mpeg">
           Tu navegador no soporta la reproducción de audio HTML5.
@@ -436,12 +436,50 @@
   <section id="musica" class="pagina detalle" hidden>
     <h2>Música — Discografía y canciones</h2>
     <ul class="lista-items">
-      <li><strong>Puerto Montt</strong> (1968) — Álbum: <em>Puerto Montt</em></li>
-      <li><strong>Te lo pido de rodillas</strong> (1970) — Álbum: <em>Los Iracundos</em></li>
-      <li><strong>Es la lluvia que cae</strong> (1967) — Álbum: <em>Los Iracundos en Roma</em></li>
-      <li><strong>Tú con él</strong> (1985) — Álbum: <em>Tú con él</em></li>
-      <li><strong>Chiquilina</strong> (1971) — Álbum: <em>Agua con amor</em></li>
-      <li><strong>Aprontate a vivir</strong> (1979) — Álbum: <em>Amor y fe</em></li>
+      <li><strong>Stop</strong> (1964)</li>
+      <li><strong>Sin palabras</strong> (1965)</li>
+      <li><strong>Con palabras</strong> (1965)</li>
+      <li><strong>El sonido de Los Iracundos</strong> (1966)</li>
+      <li><strong>Primeros en América</strong> (1966)</li>
+      <li><strong>En estereofonía</strong> (1966)</li>
+      <li><strong>Los Iracundos en Roma</strong> (1967)</li>
+      <li><strong>La juventud</strong> (1967)</li>
+      <li><strong>Felicidad, felicidad</strong> (1968)</li>
+      <li><strong>La música de Los Iracundos</strong> (1968)</li>
+      <li><strong>Puerto Montt</strong> (1968)</li>
+      <li><strong>La lluvia terminó</strong> (1969)</li>
+      <li><strong>Los Iracundos</strong> (1970)</li>
+      <li><strong>Impactos</strong> (1971)</li>
+      <li><strong>Instrumental</strong> (1971)</li>
+      <li><strong>Agua con amor</strong> (1972)</li>
+      <li><strong>Te lo pido de rodillas</strong> (1973)</li>
+      <li><strong>Tango joven</strong> (1974)</li>
+      <li><strong>Y te has quedado sola</strong> (1974)</li>
+      <li><strong>Cada noche mía</strong> (1975)</li>
+      <li><strong>Cómo pretendes que te quiera</strong> (1976)</li>
+      <li><strong>Gol! de Los Iracundos</strong> (1977)</li>
+      <li><strong>Pasión y vida</strong> (1978)</li>
+      <li><strong>Amor y fe</strong> (1979)</li>
+      <li><strong>Incomparables </strong> (1980)</li>
+      <li><strong>Fue tormenta de verano</strong> (1981)</li>
+      <li><strong>40 grados</strong> (1982)</li>
+      <li><strong>Apróntate a vivir</strong> (1983)</li>
+      <li><strong>Tú con él</strong> (1984)</li>
+      <li><strong>Iracundos '86</strong> (1986)</li>
+      <li><strong>La historia de Los Iracundos</strong> (1987)</li>
+      <li><strong>Dime quién... te ha enseñado</strong> (1987)</li>
+      <li><strong>La historia de Los Iracundos: parte 2</strong> (1989)</li>
+      <li><strong>Iracundos '90</strong> (1990)</li>
+      <li><strong>Con la misma moneda</strong> (1993)</li>
+      <li><strong>Los Iracundos de fiesta</strong> (1999)</li>
+      <li><strong>Seguimos cantando</strong> (2005)</li>
+      <li><strong>Los Iracundos hoy: vol 1</strong> (2006)</li>
+      <li><strong>Los Iracundos hoy: vol 2</strong> (2007)</li>
+      <li><strong>Según pasan los años</strong> (2010)</li>
+      <li><strong>Éxitos de oro</strong> (2024)</li>
+      <li><strong>Los Iracundos ft Negro Videla</strong> (2024)</li>
+      <li><strong>Los Iracundos Sabor a Cumbia</strong> (2025)</li>
+      
     </ul>
 
     <a class="volver" href="#inicio">← Volver al inicio</a>
