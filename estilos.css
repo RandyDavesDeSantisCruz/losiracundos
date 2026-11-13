@@ -1,6 +1,3 @@
-/* =========================================================
-   PALETA PERSONALIZADA: ESTILO NUEVA OLA / BALADA ROMÁNTICA
-   ========================================================= */
 :root {
   --azul-noche: #0b2545;
   --azul-puerto: #134074;
@@ -41,7 +38,6 @@ body {
   margin: 0 auto;
 }
 
-/* Evita que display:flex o grid anulen el atributo hidden */
 [hidden] {
   display: none !important;
 }
@@ -52,9 +48,7 @@ img {
   display: block;
 }
 
-/* =========================================================
-   ANIMACIONES Y TRANSICIONES CSS
-   ========================================================= */
+/* Animaciones */
 @keyframes entradaSeccion {
   from {
     opacity: 0;
@@ -88,9 +82,7 @@ img {
   animation: entradaSeccion 0.45s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-/* =========================================================
-   ENCABEZADO CON ESTÉTICA VINTAGE DE VINILO
-   ========================================================= */
+/* Encabezado */
 .encabezado {
   background: linear-gradient(135deg, var(--azul-noche) 0%, var(--azul-puerto) 60%, var(--azul-oceano) 100%);
   color: #ffffff;
@@ -136,9 +128,7 @@ img {
   font-style: italic;
 }
 
-/* =========================================================
-   MENÚ DE NAVEGACIÓN
-   ========================================================= */
+/* Menú */
 .menu {
   background: #18202c;
   padding: 12px 16px;
@@ -173,9 +163,7 @@ img {
   box-shadow: 0 2px 8px rgba(217, 130, 43, 0.4);
 }
 
-/* =========================================================
-   ESTRUCTURA PRINCIPAL E INICIO
-   ========================================================= */
+/* Inicio y secciones */
 .contenido {
   display: flex;
   gap: 16px;
@@ -290,9 +278,7 @@ img {
   transform: translateX(-3px);
 }
 
-/* =========================================================
-   BIOGRAFÍA
-   ========================================================= */
+/* Biografía */
 .bloque-bio {
   margin-bottom: 16px;
 }
@@ -326,9 +312,7 @@ img {
   font-weight: bold;
 }
 
-/* =========================================================
-   GALERÍA CON EFECTOS HOVER
-   ========================================================= */
+/* Galería */
 .galeria-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
@@ -381,9 +365,7 @@ img {
   font-size: 0.95rem;
 }
 
-/* =========================================================
-   APARTADO DE ÁLBUMES MUSICALES
-   ========================================================= */
+/* Álbumes */
 .albumes-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -400,8 +382,6 @@ img {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  position: relative;
-  overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
@@ -418,8 +398,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  overflow: hidden;
 }
 
 .portada-vinilo.dorada {
@@ -466,9 +444,7 @@ img {
   color: var(--texto-suave);
 }
 
-/* =========================================================
-   SECCIÓN DE PRÓXIMOS CONCIERTOS O PRESENTACIONES
-   ========================================================= */
+/* Conciertos */
 .lista-conciertos {
   display: flex;
   flex-direction: column;
@@ -547,9 +523,68 @@ img {
   animation: pulsoEtiqueta 2.5s infinite;
 }
 
-/* =========================================================
-   LISTAS GENERALES, AUDIOS Y VIDEOS
-   ========================================================= */
+/* Navegación entre canciones */
+.indice-canciones {
+  background-color: var(--celeste-suave);
+  border: 1px solid #bfd7f2;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.indice-canciones span {
+  font-weight: 700;
+  color: var(--azul-noche);
+  font-size: 0.92rem;
+}
+
+.indice-canciones a {
+  background-color: #ffffff;
+  color: var(--azul-puerto);
+  border: 1px solid var(--azul-oceano);
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.86rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.25s ease, color 0.25s ease, transform 0.2s ease;
+}
+
+.indice-canciones a:hover {
+  background-color: var(--azul-oceano);
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.enlaces-cruzados {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.enlaces-cruzados a {
+  background-color: #fff3e0;
+  color: #9c4d00;
+  border: 1px solid var(--dorado-vinilo);
+  padding: 5px 11px;
+  border-radius: 5px;
+  font-size: 0.84rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.enlaces-cruzados a:hover {
+  background-color: var(--dorado-vinilo);
+  color: #ffffff;
+}
+
+/* Listas, Audios y Videos */
 .lista-items {
   list-style: none;
   padding: 0;
@@ -626,21 +661,104 @@ img {
   text-decoration: underline;
 }
 
-/* =========================================================
-   LETRAS DE CANCIONES
-   ========================================================= */
+/* F. Letras de canciones con reproductor sincronizable */
 .bloque-letra {
   background: #ffffff;
-  padding: 20px 24px;
-  border-radius: 8px;
-  border-left: 4px solid var(--dorado-vinilo);
-  margin-bottom: 18px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  padding: 22px 24px;
+  border-radius: 10px;
+  border: 1px solid #e2d9c8;
+  border-left: 5px solid var(--dorado-vinilo);
+  margin-bottom: 24px;
+  box-shadow: var(--sombra-suave);
 }
 
-/* =========================================================
-   BOTÓN FLOTANTE PARA REGRESAR AL INICIO DE LA PÁGINA
-   ========================================================= */
+.cabecera-letra {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 14px;
+  border-bottom: 2px solid var(--celeste-suave);
+}
+
+.cabecera-letra h3 {
+  margin: 0;
+  font-size: 1.35rem;
+  color: var(--azul-noche);
+}
+
+.subtitulo-letra {
+  font-size: 0.88rem;
+  color: var(--texto-suave);
+}
+
+.btn-catalogo {
+  background-color: var(--azul-oceano);
+  color: #ffffff;
+  padding: 7px 14px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn-catalogo:hover {
+  background-color: var(--azul-noche);
+  transform: translateX(-2px);
+}
+
+.reproductor-letra {
+  position: sticky;
+  top: 10px;
+  z-index: 10;
+  background: linear-gradient(135deg, var(--azul-noche), var(--azul-puerto));
+  color: #ffffff;
+  padding: 10px 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 4px 12px rgba(11, 37, 69, 0.2);
+}
+
+.reproductor-letra span {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--dorado-claro);
+}
+
+.reproductor-letra audio {
+  flex: 1;
+  min-width: 220px;
+  height: 36px;
+}
+
+.texto-letra {
+  background-color: var(--crema-tarjeta);
+  padding: 18px 22px;
+  border-radius: 8px;
+  border: 1px solid #ebe3d5;
+  max-height: 360px;
+  overflow-y: auto;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--texto-oscuro);
+}
+
+.texto-letra p {
+  margin: 0 0 14px;
+}
+
+.texto-letra p:last-child {
+  margin-bottom: 0;
+}
+
+/* Botón flotante subir */
 #btn-subir {
   position: fixed;
   bottom: 24px;
@@ -664,9 +782,7 @@ img {
   box-shadow: 0 10px 22px rgba(217, 130, 43, 0.45);
 }
 
-/* =========================================================
-   PIE DE PÁGINA
-   ========================================================= */
+/* Pie de página */
 .pie {
   background: var(--azul-noche);
   color: #e2e8f0;
@@ -732,6 +848,10 @@ img {
   .principal,
   .lateral {
     width: 100%;
+  }
+  .cabecera-letra {
+    flex-direction: column;
+    align-items: flex-start;
   }
   #btn-subir {
     bottom: 16px;
