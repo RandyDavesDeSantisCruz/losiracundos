@@ -10,14 +10,16 @@
 
   <div class="contenedor-principal">
 
+    <!-- ENCABEZADO -->
     <header id="tope-pagina" class="encabezado">
-      <div class="vinilo-emblema" aria-hidden="true"></div>
+      <img src="los_iracundos_logo.jpg" alt="Logotipo de Los Iracundos" class="logo-encabezado">
       <div class="encabezado-titulos">
         <h1>Los Iracundos</h1>
         <p>Leyendas de la Nueva Ola y la Balada Romántica — Proyecto de Desarrollo de Plataformas Web</p>
       </div>
     </header>
 
+    <!-- MENÚ DE NAVEGACIÓN -->
     <nav class="menu">
       <a href="#inicio">Inicio</a>
       <a href="#biografia">Biografía</a>
@@ -35,12 +37,12 @@
       <section class="principal">
         <h2>Bienvenidos</h2>
         <p>Hola, bienvenido a la página biográfica y musical del grupo uruguayo <strong>Los Iracundos</strong>.</p>
-        <p>Sumérgete en la nostalgia romántica de los años 60 y 70: explora su historia desde Paysandú, su galería fotográfica, sus álbumes en vinilo más emblemáticos, próximas presentaciones homenaje, videos, audios en MP3 y las letras que marcaron generaciones.</p>
+        <p>Sumérgete en la nostalgia romántica de los años 60 y 70: explora su historia desde Paysandú, su galería fotográfica, sus álbumes en vinilo más emblemáticos, próximas presentaciones, videos, audios en MP3 y las letras que marcaron generaciones.</p>
 
         <div class="accesos-inicio">
           <a href="#albumes" class="btn-estilo btn-oceano">Explorar álbumes</a>
           <a href="#audios" class="btn-estilo btn-dorado">Escuchar audios MP3</a>
-          <a href="#letras" class="btn-estilo btn-oceano">Leer letras con audio</a>
+          <a href="#conciertos" class="btn-estilo btn-oceano">Próximos conciertos</a>
         </div>
       </section>
 
@@ -194,58 +196,82 @@
       <a class="volver" href="#inicio">← Volver al inicio</a>
     </section>
 
-    <!-- PRÓXIMOS CONCIERTOS -->
+    <!-- PRÓXIMOS CONCIERTOS Y PRESENTACIONES -->
     <section id="conciertos" class="pagina detalle" hidden>
       <h2>Próximos Conciertos y Presentaciones</h2>
-      <p>Fechas confirmadas de la <strong>Gira Legado Romántico — Puerto Montt Eterno</strong>:</p>
+      <p>Fechas confirmadas de sus presentaciones:</p>
 
       <div class="lista-conciertos">
         <div class="tarjeta-concierto">
           <div class="fecha-concierto">
-            <span class="dia">28</span>
+            <span class="dia">13 - 15</span>
             <span class="mes">Nov 2026</span>
           </div>
           <div class="detalle-concierto">
-            <h3>Anfiteatro del Río Uruguay</h3>
-            <p><strong>Ciudad:</strong> Paysandú, Uruguay • <strong>Hora:</strong> 21:00 hrs</p>
+            <h3>Uruguay</h3>
+            <p>Se presentan hoy 13 de noviembre en el <strong>Teatro Florencio Sánchez de Paysandú</strong> conmemorando el 85.º aniversario del natalicio de Juano Velázquez, seguidos por conciertos en <strong>Rocha</strong> el 14 y en la <strong>Sala Cantegril de Punta del Este</strong> el 15.</p>
           </div>
-          <span class="estado-entrada">Entradas disponibles</span>
+          <span class="estado-entrada">En curso</span>
         </div>
 
         <div class="tarjeta-concierto">
           <div class="fecha-concierto">
-            <span class="dia">12</span>
+            <span class="dia">21</span>
+            <span class="mes">Nov 2026</span>
+          </div>
+          <div class="detalle-concierto">
+            <h3>Argentina</h3>
+            <p>Tienen programada una presentación en la ciudad de <strong>Gualeguay</strong>.</p>
+          </div>
+          <span class="estado-entrada">Confirmado</span>
+        </div>
+
+        <div class="tarjeta-concierto">
+          <div class="fecha-concierto">
+            <span class="dia">25 - 29</span>
+            <span class="mes">Nov 2026</span>
+          </div>
+          <div class="detalle-concierto">
+            <h3>Perú</h3>
+            <p>Realizarán la gira <em>Leyendas del Romanticismo</em> junto a <strong>Germaín de la Fuente</strong> y <strong>Los Dolton's</strong> visitando <strong>Huancayo, Moyobamba, Iquitos, Cajamarca y Lima</strong>.</p>
+          </div>
+          <span class="estado-entrada">Gira confirmada</span>
+        </div>
+
+        <div class="tarjeta-concierto">
+          <div class="fecha-concierto">
+            <span class="dia">2 - 6</span>
             <span class="mes">Dic 2026</span>
           </div>
           <div class="detalle-concierto">
-            <h3>Teatro Gran Rex</h3>
-            <p><strong>Ciudad:</strong> Buenos Aires, Argentina • <strong>Hora:</strong> 20:30 hrs</p>
-          </div>
-          <span class="estado-entrada">Últimas localidades</span>
-        </div>
-
-        <div class="tarjeta-concierto">
-          <div class="fecha-concierto">
-            <span class="dia">16</span>
-            <span class="mes">Ene 2027</span>
-          </div>
-          <div class="detalle-concierto">
-            <h3>Teatro Centro Cívico Eloy Alfaro</h3>
-            <p><strong>Ciudad:</strong> Guayaquil, Ecuador • <strong>Hora:</strong> 20:00 hrs</p>
-          </div>
-          <span class="estado-entrada">Preventa activa</span>
-        </div>
-
-        <div class="tarjeta-concierto">
-          <div class="fecha-concierto">
-            <span class="dia">14</span>
-            <span class="mes">Feb 2027</span>
-          </div>
-          <div class="detalle-concierto">
-            <h3>Especial Día de los Enamorados — Arena Puerto Montt</h3>
-            <p><strong>Ciudad:</strong> Puerto Montt, Chile • <strong>Hora:</strong> 21:30 hrs</p>
+            <h3>Centroamérica</h3>
+            <p>Llevarán su gira por <strong>Ciudad de Guatemala</strong> (2 de diciembre), <strong>San Salvador</strong> (3 de diciembre), <strong>San Pedro Sula</strong> (4 de diciembre), <strong>Tegucigalpa</strong> (5 de diciembre) y <strong>Ciudad de Panamá</strong> (6 de diciembre).</p>
           </div>
           <span class="estado-entrada">Próximamente</span>
+        </div>
+
+        <div class="tarjeta-concierto">
+          <div class="fecha-concierto">
+            <span class="dia">20</span>
+            <span class="mes">Dic 2026</span>
+          </div>
+          <div class="detalle-concierto">
+            <h3>Paraguay</h3>
+            <p>Realizarán una presentación de carácter privado.</p>
+          </div>
+          <span class="estado-entrada">Evento privado</span>
+        </div>
+
+        <div class="tarjeta-concierto">
+          <div class="fecha-concierto">
+            <span class="dia">21</span>
+            <span class="mes">Dic 2026</span>
+          </div>
+          <div class="detalle-concierto">
+            <h3>Argentina</h3>
+            <p>Ofrecerán un concierto en la ciudad de <strong>Posadas</strong>.</p>
+          </div>
+          <span class="estado-entrada">Confirmado</span>
         </div>
       </div>
 
@@ -359,7 +385,7 @@
       <a class="volver" href="#inicio">← Volver al inicio</a>
     </section>
 
-    <!-- F. LETRAS DE CANCIONES -->
+    <!-- LETRAS DE CANCIONES -->
     <section id="letras" class="pagina detalle" hidden>
       <h2>Letras de canciones</h2>
       <p>Reproduce la pista asociada a cada canción mientras sigues su letra organizada por estrofas:</p>
@@ -575,6 +601,7 @@
       <a class="volver" href="#inicio">← Volver al inicio</a>
     </section>
 
+    <!-- PIE DE PÁGINA -->
     <footer class="pie">
       <div class="redes-sociales">
         <span>Redes oficiales de Los Iracundos:</span>
@@ -594,6 +621,7 @@
 
   </div>
 
+  <!-- BOTÓN FLOTANTE PARA REGRESAR AL INICIO DE LA PÁGINA -->
   <button id="btn-subir" type="button" title="Regresar al inicio de la página">↑ Inicio</button>
 
   <script>
