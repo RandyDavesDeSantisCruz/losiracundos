@@ -226,7 +226,7 @@
     .pie {
       background: #555;
       color: white;
-      padding: 16px;
+      padding: 18px 16px;
       text-align: center;
       margin-top: 12px;
       border-radius: 6px;
@@ -240,6 +240,39 @@
 
     .pie a:hover {
       text-decoration: underline;
+    }
+
+    /* Redes sociales en el pie de página */
+    .redes-sociales {
+      margin-bottom: 14px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid #777;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .redes-sociales span {
+      font-weight: bold;
+      margin-right: 4px;
+    }
+
+    .redes-sociales a {
+      background: #3d3d3d;
+      color: #ffffff;
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      font-weight: bold;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .redes-sociales a:hover {
+      background: #2196f3;
+      color: #ffffff;
+      text-decoration: none;
     }
 
     @media (max-width: 768px) {
@@ -519,6 +552,16 @@
   </section>
 
   <footer class="pie">
+    <div class="redes-sociales">
+      <span>Redes oficiales de Los Iracundos:</span>
+      <a href="https://www.facebook.com/losiracundosoriginales/" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a href="https://www.instagram.com/losiracundosoriginales" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="https://losiracundos.com/" target="_blank" rel="noopener noreferrer">Sitio web</a>
+      <a href="https://www.tiktok.com/@losiracundosoriginales" target="_blank" rel="noopener noreferrer">TikTok</a>
+      <a href="https://x.com/Los_Iracundos" target="_blank" rel="noopener noreferrer">X</a>
+      <a href="https://www.youtube.com/@LosIracundosOriginales" target="_blank" rel="noopener noreferrer">YouTube</a>
+    </div>
+
     Hecho por Randy Daves De Santis Cruz - Carrera de Sistemas de Información 3er Semestre "C" Vespertino - Creado en el año 2026 - Comentarios y sugerencias al correo:
     <a href="mailto:randydavesdesantiscruz1996@gmail.com">randydavesdesantiscruz1996@gmail.com</a> - Todos los derechos reservados
   </footer>
