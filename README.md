@@ -403,9 +403,9 @@
 
       <li class="tarjeta-audio">
         <strong>1. Fábula</strong>
-        <p class="info-pista">Álbum: <em> Incomparables(1980)</em></p>
+        <p class="info-pista">Álbum: <em>Incomparables (1980)</em></p>
         <audio controls preload="none">
-          <source src="fabula.mp3" type="audio/mpeg">
+          <source src="fábula.mp3" type="audio/mpeg">
           Tu navegador no soporta la reproducción de audio HTML5.
         </audio>
       </li>
