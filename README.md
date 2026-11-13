@@ -37,7 +37,7 @@
       <section class="principal">
         <h2>Bienvenidos</h2>
         <div class="texto-bienvenida">
-          <p>Hola, bienvenido a la página biográfica del grupo <strong>Los Iracundos</strong>.</p>
+          <p>Hola, bienvenido a la página biográfica del grupo Los Iracundos.</p>
           <p>Explora en el menú superior la historia de esta legendaria agrupación uruguaya, su galería de recuerdos, videos destacados, audios en MP3, discografía y las letras de sus canciones más recordadas.</p>
         </div>
       </section>
