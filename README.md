@@ -187,7 +187,7 @@
           <div class="portada-vinilo">
             <div class="disco-mini"></div>
           </div>
-          <span class="anio-album">1985 • RCA Victor</span>
+          <span class="anio-album">1984 • RCA Victor</span>
           <h3>Tú con él</h3>
           <p><strong>Temas notables:</strong> <em>Tú con él</em>, <em>Las puertas del olvido</em>.</p>
         </div>
