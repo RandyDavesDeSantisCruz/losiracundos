@@ -182,6 +182,13 @@
       display: block;
     }
 
+    .enlace-respaldo {
+      display: inline-block;
+      margin-top: 8px;
+      font-size: 0.88rem;
+      color: #1565c0;
+    }
+
     /* Cuadrícula y tarjetas de la Galería */
     .galeria-grid {
       display: grid;
@@ -353,8 +360,9 @@
       <li>
         <strong>Los Iracundos - Tú con él</strong>
         <div class="video-contenedor">
-          <iframe src="https://www.youtube.com/watch?v=vM1ijxK55lY" title="Los Iracundos - Tú con él" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/vM1ijxK55lY" title="Los Iracundos - Tú con él" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
+        <a class="enlace-respaldo" href="https://www.youtube.com/watch?v=vM1ijxK55lY" target="_blank" rel="noopener noreferrer">Ver en YouTube</a>
       </li>
     </ul>
 
@@ -390,6 +398,15 @@
   </footer>
 
   <script>
+    // Convierte automáticamente enlaces watch?v= o youtu.be/ al formato /embed/ válido
+    document.querySelectorAll(".video-contenedor iframe").forEach(function (frame) {
+      var url = frame.getAttribute("src") || "";
+      var coincidencia = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([a-zA-Z0-9_-]{11})/);
+      if (coincidencia) {
+        frame.src = "https://www.youtube.com/embed/" + coincidencia[1];
+      }
+    });
+
     function mostrar() {
       var id = location.hash.slice(1) || "inicio";
       var paginas = document.querySelectorAll(".pagina");
