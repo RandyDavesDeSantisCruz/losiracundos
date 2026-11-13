@@ -2,431 +2,17 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <!-- Parámetro 10: Configuración para diseño responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Los Iracundos</title>
-
-  <!-- Parámetro 2: Enlace al archivo externo estilos.css -->
+  <!-- Enlace al archivo externo CSS3 -->
   <link rel="stylesheet" href="estilos.css">
-
-  <!-- Código completo de estilos.css integrado para funcionar en un solo archivo -->
-  <style>
-    /* ==========================================================================
-       CONTENIDO DE estilos.css (CSS3)
-       ========================================================================== */
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 0;
-      padding: 20px;
-      background-color: #f4f6f9;
-      color: #222;
-      line-height: 1.6;
-    }
-
-    /* Evita que display:flex anule el atributo hidden */
-    [hidden] {
-      display: none !important;
-    }
-
-    /* Regla general para imágenes adaptables */
-    img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    /* Contenedor principal centrado */
-    .contenedor {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    /* ==========================================================================
-       ENCABEZADO Y LOGO
-       ========================================================================== */
-    .encabezado {
-      background: #2196f3;
-      color: #ffffff;
-      padding: 24px 20px;
-      border-radius: 6px 6px 0 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 18px;
-      flex-wrap: wrap;
-      text-align: center;
-    }
-
-    .logo-banda {
-      max-height: 85px;
-      width: auto;
-      border-radius: 6px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    }
-
-    .encabezado h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
-
-    .encabezado p {
-      margin: 6px 0 0;
-      font-size: 0.95rem;
-      opacity: 0.95;
-    }
-
-    /* ==========================================================================
-       MENÚ DE NAVEGACIÓN
-       ========================================================================== */
-    .menu {
-      background: #333;
-      color: #bbb;
-      padding: 14px 20px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      gap: 6px;
-      border-radius: 0 0 6px 6px;
-    }
-
-    .menu a {
-      color: #ffffff;
-      text-decoration: none;
-      padding: 6px 10px;
-      border-radius: 4px;
-      transition: background 0.2s ease, color 0.2s ease;
-    }
-
-    .menu a:hover,
-    .menu a.activo {
-      background: #2196f3;
-      color: #ffffff;
-    }
-
-    /* ==========================================================================
-       SECCIONES Y CONTENIDO PRINCIPAL
-       ========================================================================== */
-    .contenido {
-      display: flex;
-      gap: 12px;
-      margin-top: 12px;
-    }
-
-    .principal {
-      background: #DDEEFF;
-      padding: 30px;
-      width: 70%;
-      border-radius: 6px;
-    }
-
-    .lateral {
-      background: #DDF5DD;
-      padding: 30px;
-      width: 30%;
-      border-radius: 6px;
-    }
-
-    .detalle {
-      background: #DDEEFF;
-      padding: 30px;
-      margin-top: 12px;
-      border-radius: 6px;
-    }
-
-    .detalle h2,
-    .principal h2 {
-      margin-top: 0;
-      color: #0d47a1;
-      border-bottom: 2px solid #90caf9;
-      padding-bottom: 8px;
-    }
-
-    .detalle h3 {
-      color: #1565c0;
-      margin-bottom: 6px;
-    }
-
-    .bloque-info,
-    .bloque-letra {
-      margin-bottom: 18px;
-    }
-
-    .bloque-letra {
-      background: #ffffff;
-      padding: 18px 22px;
-      border-left: 4px solid #2196f3;
-      border-radius: 4px;
-    }
-
-    .bloque-letra h3 {
-      margin-top: 0;
-    }
-
-    .detalle a,
-    .volver {
-      display: inline-block;
-      margin-top: 15px;
-      color: #1565c0;
-      font-weight: bold;
-      text-decoration: none;
-    }
-
-    .detalle a:hover,
-    .volver:hover {
-      text-decoration: underline;
-    }
-
-    /* ==========================================================================
-       FOTOGRAFÍA EN BIOGRAFÍA Y GALERÍA
-       ========================================================================== */
-    .foto-biografia {
-      background: #ffffff;
-      padding: 14px;
-      border-radius: 6px;
-      max-width: 420px;
-      margin: 12px 0;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
-    }
-
-    .foto-biografia img {
-      width: 100%;
-      border-radius: 4px;
-    }
-
-    .foto-biografia figcaption {
-      margin-top: 8px;
-      font-size: 0.9rem;
-      color: #444;
-      text-align: center;
-      font-weight: bold;
-    }
-
-    .galeria-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 16px;
-      margin-top: 15px;
-    }
-
-    .tarjeta-foto {
-      background: #ffffff;
-      padding: 14px;
-      border-radius: 6px;
-      text-align: center;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-
-    .tarjeta-foto img {
-      width: 100%;
-      height: 220px;
-      object-fit: cover;
-      border-radius: 4px;
-      background-color: #bbdefb;
-    }
-
-    .tarjeta-foto p {
-      margin: 10px 0 0;
-      font-weight: bold;
-      color: #0d47a1;
-      font-size: 0.95rem;
-    }
-
-    /* ==========================================================================
-       LISTAS, AUDIOS MP3 Y VIDEOS
-       ========================================================================== */
-    .lista-items {
-      list-style: none;
-      padding: 0;
-    }
-
-    .lista-items li {
-      background: #ffffff;
-      margin-bottom: 14px;
-      padding: 16px;
-      border-left: 4px solid #2196f3;
-      border-radius: 4px;
-    }
-
-    .tarjeta-audio {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
-
-    .tarjeta-audio .info-pista {
-      font-size: 0.92rem;
-      color: #555;
-      margin: 0;
-    }
-
-    .tarjeta-audio audio {
-      width: 100%;
-      max-width: 480px;
-      height: 40px;
-      margin-top: 4px;
-    }
-
-    .video-contenedor {
-      margin-top: 10px;
-      max-width: 560px;
-      aspect-ratio: 16 / 9;
-      border-radius: 6px;
-      overflow: hidden;
-      background-color: #000;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-    }
-
-    .video-contenedor iframe {
-      width: 100%;
-      height: 100%;
-      border: 0;
-      display: block;
-    }
-
-    .enlace-respaldo {
-      display: inline-block;
-      margin-top: 8px;
-      font-size: 0.88rem;
-      color: #1565c0;
-    }
-
-    /* ==========================================================================
-       PIE DE PÁGINA Y REDES SOCIALES
-       ========================================================================== */
-    .pie {
-      background: #555;
-      color: white;
-      padding: 18px 16px;
-      text-align: center;
-      margin-top: 12px;
-      border-radius: 6px;
-      font-size: 0.9rem;
-    }
-
-    .pie a {
-      color: #90caf9;
-      text-decoration: none;
-    }
-
-    .pie a:hover {
-      text-decoration: underline;
-    }
-
-    .redes-sociales {
-      margin-bottom: 14px;
-      padding-bottom: 14px;
-      border-bottom: 1px solid #777;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .redes-sociales span {
-      font-weight: bold;
-      margin-right: 4px;
-    }
-
-    .redes-sociales a {
-      background: #3d3d3d;
-      color: #ffffff;
-      padding: 6px 12px;
-      border-radius: 4px;
-      font-size: 0.85rem;
-      font-weight: bold;
-      transition: background 0.2s ease, color 0.2s ease;
-    }
-
-    .redes-sociales a:hover {
-      background: #2196f3;
-      color: #ffffff;
-      text-decoration: none;
-    }
-
-    /* ==========================================================================
-       DISEÑO RESPONSIVE (TABLETS Y TELÉFONOS MÓVILES)
-       ========================================================================== */
-    @media (max-width: 768px) {
-      body {
-        padding: 12px;
-      }
-
-      .contenido {
-        flex-direction: column;
-      }
-
-      .principal,
-      .lateral {
-        width: 100%;
-        padding: 20px;
-      }
-
-      .detalle {
-        padding: 20px;
-      }
-    }
-
-    @media (max-width: 480px) {
-      body {
-        padding: 8px;
-      }
-
-      .encabezado {
-        padding: 18px 12px;
-      }
-
-      .encabezado h1 {
-        font-size: 1.6rem;
-      }
-
-      .logo-banda {
-        max-height: 70px;
-      }
-
-      .menu {
-        flex-direction: column;
-        gap: 4px;
-      }
-
-      .menu span {
-        display: none;
-      }
-
-      .menu a {
-        width: 100%;
-        text-align: center;
-        padding: 8px;
-      }
-
-      .redes-sociales {
-        flex-direction: column;
-      }
-
-      .redes-sociales a {
-        width: 80%;
-      }
-    }
-  </style>
 </head>
 <body>
 
-  <!-- Parámetros 3, 4 y 5: Contenedor principal con div, class e id -->
   <div id="contenedor-general" class="contenedor">
 
-    <!-- Parámetros 1, 4 y 5: Encabezado HTML5 con class e id -->
     <header id="encabezado-principal" class="encabezado">
       <div class="logo-contenedor">
-        <!-- Parámetro 6: Logo de la banda mediante etiqueta img -->
         <img src="los_iracundos_logo.jpg" alt="Logo oficial de Los Iracundos" class="logo-banda">
       </div>
 
@@ -436,7 +22,6 @@
       </div>
     </header>
 
-    <!-- Parámetros 1 y 9: Barra de navegación HTML5 con enlaces internos -->
     <nav id="menu-navegacion" class="menu">
       <a href="#inicio">Inicio</a> <span>|</span>
       <a href="#biografia">Biografía</a> <span>|</span>
@@ -447,7 +32,7 @@
       <a href="#letras">Letras de canciones</a>
     </nav>
 
-    <!-- SECCIÓN: INICIO (Parámetros 1, 3, 4 y 5) -->
+    <!-- SECCIÓN: INICIO -->
     <main id="inicio" class="pagina contenido">
       <section class="principal">
         <h2>Bienvenidos</h2>
@@ -501,13 +86,11 @@
       <div class="bloque-info">
         <h3>Fotografía del grupo</h3>
         <figure class="foto-biografia">
-          <!-- Parámetro 6: Imagen mediante etiqueta img -->
           <img src="Los_Iracundos_en_1968.jpg" alt="Los Iracundos en 1968">
           <figcaption>Los Iracundos en 1968.</figcaption>
         </figure>
       </div>
 
-      <!-- Parámetro 9: Enlace interno -->
       <a class="volver" href="#inicio">← Volver al inicio</a>
     </section>
 
@@ -516,7 +99,6 @@
       <h2>Galería</h2>
       <p>Momentos históricos de la trayectoria de Los Iracundos:</p>
 
-      <!-- Parámetros 3, 4 y 6: Organización con div, class e img -->
       <div class="galeria-grid">
         <div class="tarjeta-foto">
           <img src="Los_Blue_Kings_entre_1958-1963.jpg" alt="Los Blue Kings entre 1958 y 1963">
@@ -544,7 +126,6 @@
       <h2>Audios en MP3</h2>
       <p>Escucha tres de los temas más emblemáticos de Los Iracundos directamente en el navegador:</p>
 
-      <!-- Parámetro 7: Incorporación de audio mediante etiqueta audio -->
       <ul class="lista-items">
         <li class="tarjeta-audio">
           <strong>1. Fábula</strong>
@@ -635,11 +216,9 @@
       <ul class="lista-items">
         <li>
           <strong>Los Iracundos - Tú con él</strong>
-          <!-- Parámetros 3 y 8: Div contenedor y video mediante iframe -->
           <div class="video-contenedor">
             <iframe src="https://www.youtube.com/embed/vM1ijxK55lY" title="Los Iracundos - Tú con él" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
-          <!-- Parámetro 9: Enlace externo -->
           <a class="enlace-respaldo" href="https://www.youtube.com/watch?v=vM1ijxK55lY" target="_blank" rel="noopener noreferrer">Ver en YouTube</a>
         </li>
       </ul>
@@ -798,7 +377,6 @@
       <a class="volver" href="#inicio">← Volver al inicio</a>
     </section>
 
-    <!-- Parámetros 1, 3, 5 y 9: Pie de página HTML5 con div, id y enlaces externos -->
     <footer id="pie-pagina" class="pie">
       <div class="redes-sociales">
         <span>Redes oficiales de Los Iracundos:</span>
