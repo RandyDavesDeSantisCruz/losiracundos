@@ -164,6 +164,26 @@
       border-radius: 4px;
     }
 
+    /* Estilo para los reproductores de audio MP3 */
+    .tarjeta-audio {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .tarjeta-audio .info-pista {
+      font-size: 0.92rem;
+      color: #555;
+      margin: 0;
+    }
+
+    .tarjeta-audio audio {
+      width: 100%;
+      max-width: 480px;
+      height: 40px;
+      margin-top: 4px;
+    }
+
     /* Contenedor responsivo para reproducir videos dentro de la página */
     .video-contenedor {
       margin-top: 10px;
@@ -298,6 +318,7 @@
     <a href="#biografia">Biografía</a> <span>|</span>
     <a href="#galeria">Galería</a> <span>|</span>
     <a href="#videos">Videos</a> <span>|</span>
+    <a href="#audios">Audios MP3</a> <span>|</span>
     <a href="#musica">Catálogo de canciones</a> <span>|</span>
     <a href="#letras">Letras de canciones</a>
   </nav>
@@ -307,7 +328,7 @@
     <section class="principal">
       <h2>Bienvenidos</h2>
       <p>Hola, bienvenido a la página biográfica del grupo <strong>Los Iracundos</strong>.</p>
-      <p>Explora en el menú superior la historia de esta legendaria agrupación uruguaya, su galería de recuerdos, videos destacados, discografía y las letras de sus canciones más recordadas.</p>
+      <p>Explora en el menú superior la historia de esta legendaria agrupación uruguaya, su galería de recuerdos, videos destacados, audios en MP3, discografía y las letras de sus canciones más recordadas.</p>
     </section>
 
     <aside class="lateral">
@@ -371,6 +392,43 @@
         <p>Los Iracundos en 1995</p>
       </div>
     </div>
+
+    <a class="volver" href="#inicio">← Volver al inicio</a>
+  </section>
+
+  <!-- PÁGINA: AUDIOS MP3 -->
+  <section id="audios" class="pagina detalle" hidden>
+    <h2>Audios en MP3</h2>
+    <p>Escucha tres de los temas más emblemáticos de Los Iracundos directamente en el navegador:</p>
+
+    <ul class="lista-items">
+      <li class="tarjeta-audio">
+        <strong>1. Puerto Montt (1968)</strong>
+        <p class="info-pista">Álbum: <em>Puerto Montt</em></p>
+        <audio controls preload="none">
+          <source src="puerto_montt.mp3" type="audio/mpeg">
+          Tu navegador no soporta la reproducción de audio HTML5.
+        </audio>
+      </li>
+
+      <li class="tarjeta-audio">
+        <strong>2. Fábula (1972)</strong>
+        <p class="info-pista">Álbum: <em>Los Iracundos</em></p>
+        <audio controls preload="none">
+          <source src="fabula.mp3" type="audio/mpeg">
+          Tu navegador no soporta la reproducción de audio HTML5.
+        </audio>
+      </li>
+
+      <li class="tarjeta-audio">
+        <strong>3. Te lo pido de rodillas (1970)</strong>
+        <p class="info-pista">Álbum: <em>Los Iracundos</em></p>
+        <audio controls preload="none">
+          <source src="te_lo_pido_de_rodillas.mp3" type="audio/mpeg">
+          Tu navegador no soporta la reproducción de audio HTML5.
+        </audio>
+      </li>
+    </ul>
 
     <a class="volver" href="#inicio">← Volver al inicio</a>
   </section>
@@ -576,6 +634,18 @@
       }
     });
 
+    // Evita que suenen dos audios MP3 al mismo tiempo
+    var todosLosAudios = document.querySelectorAll("audio");
+    todosLosAudios.forEach(function (reproductor) {
+      reproductor.addEventListener("play", function () {
+        todosLosAudios.forEach(function (otro) {
+          if (otro !== reproductor) {
+            otro.pause();
+          }
+        });
+      });
+    });
+
     function mostrar() {
       var id = location.hash.slice(1) || "inicio";
       var paginas = document.querySelectorAll(".pagina");
@@ -585,10 +655,13 @@
       paginas.forEach(function (p) {
         var esActual = (p.id === id);
 
-        // Detiene los videos si el usuario cambia a otra sección
+        // Detiene los videos y audios si el usuario cambia a otra sección
         if (!esActual && !p.hidden) {
           p.querySelectorAll("iframe").forEach(function (frame) {
             frame.src = frame.src;
+          });
+          p.querySelectorAll("audio").forEach(function (audio) {
+            audio.pause();
           });
         }
 
