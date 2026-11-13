@@ -402,8 +402,8 @@
     <p>Escucha tres de los temas más emblemáticos de Los Iracundos directamente en el navegador:</p>
 
       <li class="tarjeta-audio">
-        <strong>2. Fábula</strong>
-        <p class="info-pista">Álbum: <em>Los Iracundos</em></p>
+        <strong>1. Fábula</strong>
+        <p class="info-pista">Álbum: <em> Incomparables(1980)</em></p>
         <audio controls preload="none">
           <source src="fabula.mp3" type="audio/mpeg">
           Tu navegador no soporta la reproducción de audio HTML5.
@@ -411,18 +411,17 @@
       </li>
 
       <li class="tarjeta-audio">
-        <strong>3. Te lo pido de rodillas</strong>
-        <p class="info-pista">Álbum: <em>Los Iracundos</em></p>
+        <strong>2. Te lo pido de rodillas</strong>
+        <p class="info-pista">Álbum: <em>Los Iracundos (1973)</em></p>
         <audio controls preload="none">
           <source src="te_lo_pido_de_rodillas.mp3" type="audio/mpeg">
           Tu navegador no soporta la reproducción de audio HTML5.
         </audio>
       </li>
 
-    <ul class="lista-items">
       <li class="tarjeta-audio">
-        <strong>1. Puerto Montt</strong>
-        <p class="info-pista">Álbum: <em>Puerto Montt</em></p>
+        <strong>3. Puerto Montt</strong>
+        <p class="info-pista">Álbum: <em>Los Iracundos (1968)</em></p>
         <audio controls preload="none">
           <source src="puerto_montt.mp3" type="audio/mpeg">
           Tu navegador no soporta la reproducción de audio HTML5.
