@@ -43,7 +43,7 @@
       </section>
 
       <aside class="lateral">
-        <h3 id="saludo">Bienvenido a mi sitio.</h3>
+        <h3 id="saludo">Bienvenido/a a mi sitio.</h3>
         <div class="datos-rapidos">
           <p><strong>Origen:</strong> Paysandú, Uruguay (1958)</p>
           <p><strong>Género:</strong> Pop rock / Balada romántica / Nueva ola</p>
@@ -58,7 +58,7 @@
 
       <div class="bloque-info">
         <h3>Nombre artístico</h3>
-        <p>El nombre artístico del grupo es <strong>Los Iracundos</strong>.</p>
+        <p>El nombre artístico del grupo es Los Iracundos.</p>
       </div>
 
       <div class="bloque-info">
