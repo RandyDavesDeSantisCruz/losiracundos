@@ -285,41 +285,27 @@
 
       <div class="indice-canciones">
         <span>Ir a la canción:</span>
-        <a href="#pista-puerto-montt">1. Puerto Montt</a>
-        <a href="#pista-fabula">2. Fábula</a>
-        <a href="#pista-te-lo-pido">3. Te lo pido de rodillas</a>
+        <a href="#pista-fabula">1. Fábula</a>
+        <a href="#pista-te-lo-pido">2. Te lo pido de rodillas</a>
+        <a href="#pista-puerto-montt">3. Puerto Montt</a>
       </div>
 
       <div class="lista-audios">
-        <div id="pista-puerto-montt" class="tarjeta-audio">
-          <strong>1. Puerto Montt (1968)</strong>
-          <p class="info-pista">Álbum: <em>Puerto Montt</em></p>
-          <audio controls preload="none">
-            <source src="puerto_montt.mp3" type="audio/mpeg">
-            Tu navegador no soporta la reproducción de audio HTML5.
-          </audio>
-          <div class="enlaces-cruzados">
-            <a href="#letra-puerto-montt">Leer letra</a>
-            <a href="#pista-fabula">Siguiente canción ↓</a>
-          </div>
-        </div>
-
         <div id="pista-fabula" class="tarjeta-audio">
-          <strong>2. Fábula (1972)</strong>
+          <strong>1. Fábula (1972)</strong>
           <p class="info-pista">Álbum: <em>Los Iracundos</em></p>
           <audio controls preload="none">
             <source src="fabula.mp3" type="audio/mpeg">
             Tu navegador no soporta la reproducción de audio HTML5.
           </audio>
           <div class="enlaces-cruzados">
-            <a href="#pista-puerto-montt">↑ Anterior</a>
             <a href="#letra-fabula">Leer letra</a>
             <a href="#pista-te-lo-pido">Siguiente canción ↓</a>
           </div>
         </div>
 
         <div id="pista-te-lo-pido" class="tarjeta-audio">
-          <strong>3. Te lo pido de rodillas (1970)</strong>
+          <strong>2. Te lo pido de rodillas (1970)</strong>
           <p class="info-pista">Álbum: <em>Los Iracundos</em></p>
           <audio controls preload="none">
             <source src="te_lo_pido_de_rodillas.mp3" type="audio/mpeg">
@@ -328,6 +314,20 @@
           <div class="enlaces-cruzados">
             <a href="#pista-fabula">↑ Anterior</a>
             <a href="#letra-te-lo-pido">Leer letra</a>
+            <a href="#pista-puerto-montt">Siguiente canción ↓</a>
+          </div>
+        </div>
+
+        <div id="pista-puerto-montt" class="tarjeta-audio">
+          <strong>3. Puerto Montt (1968)</strong>
+          <p class="info-pista">Álbum: <em>Puerto Montt</em></p>
+          <audio controls preload="none">
+            <source src="puerto_montt.mp3" type="audio/mpeg">
+            Tu navegador no soporta la reproducción de audio HTML5.
+          </audio>
+          <div class="enlaces-cruzados">
+            <a href="#pista-te-lo-pido">↑ Anterior</a>
+            <a href="#letra-puerto-montt">Leer letra</a>
           </div>
         </div>
       </div>
@@ -335,15 +335,15 @@
       <a class="volver" href="#inicio">← Volver al inicio</a>
     </section>
 
-    <!-- CATÁLOGO DE CANCIONES (SOLO LAS 3 CANCIONES PRINCIPALES) -->
+    <!-- CATÁLOGO DE CANCIONES -->
     <section id="musica" class="pagina detalle" hidden>
       <h2>Música — Catálogo musical y discografía</h2>
       <ul class="lista-items">
         <li>
-          <strong>Puerto Montt</strong> (1968) — Álbum: <em>Puerto Montt</em>
+          <strong>Fábula</strong> (1972) — Álbum: <em>Los Iracundos</em>
           <div class="enlaces-cruzados">
-            <a href="#pista-puerto-montt">Escuchar MP3</a>
-            <a href="#letra-puerto-montt">Ver letra con audio</a>
+            <a href="#pista-fabula">Escuchar MP3</a>
+            <a href="#letra-fabula">Ver letra con audio</a>
           </div>
         </li>
         <li>
@@ -354,10 +354,10 @@
           </div>
         </li>
         <li>
-          <strong>Fábula</strong> (1972) — Álbum: <em>Los Iracundos</em>
+          <strong>Puerto Montt</strong> (1968) — Álbum: <em>Puerto Montt</em>
           <div class="enlaces-cruzados">
-            <a href="#pista-fabula">Escuchar MP3</a>
-            <a href="#letra-fabula">Ver letra con audio</a>
+            <a href="#pista-puerto-montt">Escuchar MP3</a>
+            <a href="#letra-puerto-montt">Ver letra con audio</a>
           </div>
         </li>
       </ul>
@@ -388,16 +388,136 @@
 
       <div class="indice-canciones">
         <span>Saltar a la canción:</span>
-        <a href="#letra-puerto-montt">1. Puerto Montt</a>
-        <a href="#letra-fabula">2. Fábula</a>
-        <a href="#letra-te-lo-pido">3. Te lo pido de rodillas</a>
+        <a href="#letra-fabula">1. Fábula</a>
+        <a href="#letra-te-lo-pido">2. Te lo pido de rodillas</a>
+        <a href="#letra-puerto-montt">3. Puerto Montt</a>
       </div>
 
-      <!-- Canción 1: Puerto Montt -->
+      <!-- Canción 1: Fábula -->
+      <div id="letra-fabula" class="bloque-letra">
+        <div class="cabecera-letra">
+          <div>
+            <h3>1. Fábula</h3>
+            <span class="subtitulo-letra">Álbum: <em>Los Iracundos</em> (1972)</span>
+          </div>
+          <a href="#musica" class="btn-catalogo">← Regresar al catálogo musical</a>
+        </div>
+
+        <div class="reproductor-letra">
+          <span>Escuchar canción mientras lees:</span>
+          <audio controls preload="none">
+            <source src="fabula.mp3" type="audio/mpeg">
+            Tu navegador no soporta la reproducción de audio HTML5.
+          </audio>
+        </div>
+
+        <div class="texto-letra">
+          <p>
+            El Sol sobre mi cama hoy me vuelve a despertar<br>
+            Y yo quiero dormir, dormir, dormir para olvidar<br>
+            Que vivo en un desierto de cemento y soledad.
+          </p>
+          <p>
+            Y tú, entre brindis, noches y amantes<br>
+            De ese mundo loco y errante<br>
+            No vas a volver<br>
+            Y yo sufriré<br>
+            Resignado al ver<br>
+            Que lo nuestro fue...
+          </p>
+          <p>
+            Fábula, de un pobre tonto que siempre te amó<br>
+            Y que sus puertas nunca más cerró<br>
+            Con la esperanza de volverte a ver.
+          </p>
+          <p>
+            Fábula, de una muchacha que siempre creyó<br>
+            En cuentos de hadas y que confundió<br>
+            Las madrugadas con amanecer.<br>
+            Fábula, la-la-la-la-la-la-la-la-la-la.
+          </p>
+          <p>
+            Mi vida ya no es vida, yo no sé qué voy a hacer<br>
+            Rogando a Dios le pido me devuelva tu querer<br>
+            Me estoy volviendo loco de sufrir y de llorar.
+          </p>
+          <p>
+            Y tú, entre brindis, noches y amantes<br>
+            De ese mundo loco y errante<br>
+            No vas a volver<br>
+            Y yo sufriré<br>
+            Resignado al ver<br>
+            Que lo nuestro fue...
+          </p>
+          <p>
+            Fábula, de un pobre tonto que siempre te amó<br>
+            Y que sus puertas nunca más cerró<br>
+            Con la esperanza de volverte a ver.<br>
+            Fábula, de una muchacha que siempre creyó<br>
+            En cuentos de hadas y que confundió<br>
+            Las madrugadas con amanecer.<br>
+            Fábula, la-la-la-la-la-la-la-la-la-la.
+          </p>
+        </div>
+
+        <div class="enlaces-cruzados">
+          <a href="#musica">← Catálogo musical</a>
+          <a href="#letra-te-lo-pido">Siguiente letra: Te lo pido de rodillas ↓</a>
+        </div>
+      </div>
+
+      <!-- Canción 2: Te lo pido de rodillas -->
+      <div id="letra-te-lo-pido" class="bloque-letra">
+        <div class="cabecera-letra">
+          <div>
+            <h3>2. Te lo pido de rodillas</h3>
+            <span class="subtitulo-letra">Álbum: <em>Los Iracundos</em> (1970)</span>
+          </div>
+          <a href="#musica" class="btn-catalogo">← Regresar al catálogo musical</a>
+        </div>
+
+        <div class="reproductor-letra">
+          <span>Escuchar canción mientras lees:</span>
+          <audio controls preload="none">
+            <source src="te_lo_pido_de_rodillas.mp3" type="audio/mpeg">
+            Tu navegador no soporta la reproducción de audio HTML5.
+          </audio>
+        </div>
+
+        <div class="texto-letra">
+          <p>
+            Te llamé porque hace un año que no hablamos<br>
+            Para romper aquel adiós que nos juramos<br>
+            Voy a pedirte de rodillas que regreses junto a mí<br>
+            Porque soy de ti<br>
+            Y te quiero como antes, mucho más.
+          </p>
+          <p>
+            Te llamé porque te quiero todavía<br>
+            Porque este amor me atormenta noche y día<br>
+            Voy a pedirte de rodillas que regreses junto a mí<br>
+            Porque soy de ti<br>
+            Y te quiero como antes, mucho más.
+          </p>
+          <p>
+            Voy a pedirte de rodillas que regreses junto a mí<br>
+            Porque soy de ti<br>
+            Y te quiero como antes, mucho más.
+          </p>
+        </div>
+
+        <div class="enlaces-cruzados">
+          <a href="#letra-fabula">↑ Anterior: Fábula</a>
+          <a href="#musica">← Catálogo musical</a>
+          <a href="#letra-puerto-montt">Siguiente letra: Puerto Montt ↓</a>
+        </div>
+      </div>
+
+      <!-- Canción 3: Puerto Montt -->
       <div id="letra-puerto-montt" class="bloque-letra">
         <div class="cabecera-letra">
           <div>
-            <h3>1. Puerto Montt</h3>
+            <h3>3. Puerto Montt</h3>
             <span class="subtitulo-letra">Álbum: <em>Puerto Montt</em> (1968)</span>
           </div>
           <a href="#musica" class="btn-catalogo">← Regresar al catálogo musical</a>
@@ -469,127 +589,7 @@
         </div>
 
         <div class="enlaces-cruzados">
-          <a href="#musica">← Catálogo musical</a>
-          <a href="#letra-fabula">Siguiente letra: Fábula ↓</a>
-        </div>
-      </div>
-
-      <!-- Canción 2: Fábula -->
-      <div id="letra-fabula" class="bloque-letra">
-        <div class="cabecera-letra">
-          <div>
-            <h3>2. Fábula</h3>
-            <span class="subtitulo-letra">Álbum: <em>Los Iracundos</em> (1972)</span>
-          </div>
-          <a href="#musica" class="btn-catalogo">← Regresar al catálogo musical</a>
-        </div>
-
-        <div class="reproductor-letra">
-          <span>Escuchar canción mientras lees:</span>
-          <audio controls preload="none">
-            <source src="fabula.mp3" type="audio/mpeg">
-            Tu navegador no soporta la reproducción de audio HTML5.
-          </audio>
-        </div>
-
-        <div class="texto-letra">
-          <p>
-            El Sol sobre mi cama hoy me vuelve a despertar<br>
-            Y yo quiero dormir, dormir, dormir para olvidar<br>
-            Que vivo en un desierto de cemento y soledad.
-          </p>
-          <p>
-            Y tú, entre brindis, noches y amantes<br>
-            De ese mundo loco y errante<br>
-            No vas a volver<br>
-            Y yo sufriré<br>
-            Resignado al ver<br>
-            Que lo nuestro fue...
-          </p>
-          <p>
-            Fábula, de un pobre tonto que siempre te amó<br>
-            Y que sus puertas nunca más cerró<br>
-            Con la esperanza de volverte a ver.
-          </p>
-          <p>
-            Fábula, de una muchacha que siempre creyó<br>
-            En cuentos de hadas y que confundió<br>
-            Las madrugadas con amanecer.<br>
-            Fábula, la-la-la-la-la-la-la-la-la-la.
-          </p>
-          <p>
-            Mi vida ya no es vida, yo no sé qué voy a hacer<br>
-            Rogando a Dios le pido me devuelva tu querer<br>
-            Me estoy volviendo loco de sufrir y de llorar.
-          </p>
-          <p>
-            Y tú, entre brindis, noches y amantes<br>
-            De ese mundo loco y errante<br>
-            No vas a volver<br>
-            Y yo sufriré<br>
-            Resignado al ver<br>
-            Que lo nuestro fue...
-          </p>
-          <p>
-            Fábula, de un pobre tonto que siempre te amó<br>
-            Y que sus puertas nunca más cerró<br>
-            Con la esperanza de volverte a ver.<br>
-            Fábula, de una muchacha que siempre creyó<br>
-            En cuentos de hadas y que confundió<br>
-            Las madrugadas con amanecer.<br>
-            Fábula, la-la-la-la-la-la-la-la-la-la.
-          </p>
-        </div>
-
-        <div class="enlaces-cruzados">
-          <a href="#letra-puerto-montt">↑ Anterior: Puerto Montt</a>
-          <a href="#musica">← Catálogo musical</a>
-          <a href="#letra-te-lo-pido">Siguiente letra: Te lo pido de rodillas ↓</a>
-        </div>
-      </div>
-
-      <!-- Canción 3: Te lo pido de rodillas -->
-      <div id="letra-te-lo-pido" class="bloque-letra">
-        <div class="cabecera-letra">
-          <div>
-            <h3>3. Te lo pido de rodillas</h3>
-            <span class="subtitulo-letra">Álbum: <em>Los Iracundos</em> (1970)</span>
-          </div>
-          <a href="#musica" class="btn-catalogo">← Regresar al catálogo musical</a>
-        </div>
-
-        <div class="reproductor-letra">
-          <span>Escuchar canción mientras lees:</span>
-          <audio controls preload="none">
-            <source src="te_lo_pido_de_rodillas.mp3" type="audio/mpeg">
-            Tu navegador no soporta la reproducción de audio HTML5.
-          </audio>
-        </div>
-
-        <div class="texto-letra">
-          <p>
-            Te llamé porque hace un año que no hablamos<br>
-            Para romper aquel adiós que nos juramos<br>
-            Voy a pedirte de rodillas que regreses junto a mí<br>
-            Porque soy de ti<br>
-            Y te quiero como antes, mucho más.
-          </p>
-          <p>
-            Te llamé porque te quiero todavía<br>
-            Porque este amor me atormenta noche y día<br>
-            Voy a pedirte de rodillas que regreses junto a mí<br>
-            Porque soy de ti<br>
-            Y te quiero como antes, mucho más.
-          </p>
-          <p>
-            Voy a pedirte de rodillas que regreses junto a mí<br>
-            Porque soy de ti<br>
-            Y te quiero como antes, mucho más.
-          </p>
-        </div>
-
-        <div class="enlaces-cruzados">
-          <a href="#letra-fabula">↑ Anterior: Fábula</a>
+          <a href="#letra-te-lo-pido">↑ Anterior: Te lo pido de rodillas</a>
           <a href="#musica">← Regresar al catálogo musical</a>
         </div>
       </div>
