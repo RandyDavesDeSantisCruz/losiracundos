@@ -351,21 +351,9 @@
     <h2>Videos</h2>
     <ul class="lista-items">
       <li>
-        <strong>Los Iracundos Viejitas Romanticas – Grandes Clásicos Románticos</strong>
+        <strong>Los Iracundos - Tú con él</strong>
         <div class="video-contenedor">
-          <iframe src="https://www.youtube.com/watch?v=GXwdz-cq_XE" title="Los Iracundos Viejitas Romanticas – Grandes Clásicos Románticos" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-      </li>
-      <li>
-        <strong>Los Iracundos - Te lo pido de rodillas</strong>
-        <div class="video-contenedor">
-          <iframe src="https://www.youtube.com/embed/KFl0kAQzcwg" title="Los Iracundos - Te lo pido de rodillas" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-      </li>
-      <li>
-        <strong>Apróntate a vivir - Los Iracundos</strong>
-        <div class="video-contenedor">
-          <iframe src="https://www.youtube.com/embed/uUB9hhogtiw" title="Apróntate a vivir - Los Iracundos" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/watch?v=vM1ijxK55lY" title="Los Iracundos - Tú con él" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </li>
     </ul>
