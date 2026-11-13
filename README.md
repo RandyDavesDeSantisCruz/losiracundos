@@ -519,9 +519,8 @@
   </section>
 
   <footer class="pie">
-    Comentarios y sugerencias al correo:
-    <a href="mailto:randydavesdesantiscruz1996@gmail.com">randydavesdesantiscruz1996@gmail.com</a>
-    — © 2026 Randy De Santis - Todos los derechos reservados
+    Hecho por Randy Daves De Santis Cruz - Carrera de Sistemas de Información 3er Semestre "C" Vespertino - Creado en el año 2026 - Comentarios y sugerencias al correo:
+    <a href="mailto:randydavesdesantiscruz1996@gmail.com">randydavesdesantiscruz1996@gmail.com</a> - Todos los derechos reservados
   </footer>
 
   <script>
