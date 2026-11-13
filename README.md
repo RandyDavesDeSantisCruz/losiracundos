@@ -2,9 +2,19 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <!-- Parámetro 10: Configuración para diseño responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Los Iracundos</title>
+
+  <!-- Parámetro 2: Enlace al archivo externo estilos.css -->
+  <link rel="stylesheet" href="estilos.css">
+
+  <!-- Código completo de estilos.css integrado para funcionar en un solo archivo -->
   <style>
+    /* ==========================================================================
+       CONTENIDO DE estilos.css (CSS3)
+       ========================================================================== */
+
     * {
       box-sizing: border-box;
     }
@@ -410,11 +420,13 @@
 </head>
 <body>
 
+  <!-- Parámetros 3, 4 y 5: Contenedor principal con div, class e id -->
   <div id="contenedor-general" class="contenedor">
 
+    <!-- Parámetros 1, 4 y 5: Encabezado HTML5 con class e id -->
     <header id="encabezado-principal" class="encabezado">
       <div class="logo-contenedor">
-        <!-- LOGO DE LA BANDA EN EL ENCABEZADO -->
+        <!-- Parámetro 6: Logo de la banda mediante etiqueta img -->
         <img src="los_iracundos_logo.jpg" alt="Logo oficial de Los Iracundos" class="logo-banda">
       </div>
 
@@ -424,6 +436,7 @@
       </div>
     </header>
 
+    <!-- Parámetros 1 y 9: Barra de navegación HTML5 con enlaces internos -->
     <nav id="menu-navegacion" class="menu">
       <a href="#inicio">Inicio</a> <span>|</span>
       <a href="#biografia">Biografía</a> <span>|</span>
@@ -434,7 +447,7 @@
       <a href="#letras">Letras de canciones</a>
     </nav>
 
-    <!-- SECCIÓN: INICIO -->
+    <!-- SECCIÓN: INICIO (Parámetros 1, 3, 4 y 5) -->
     <main id="inicio" class="pagina contenido">
       <section class="principal">
         <h2>Bienvenidos</h2>
@@ -488,11 +501,13 @@
       <div class="bloque-info">
         <h3>Fotografía del grupo</h3>
         <figure class="foto-biografia">
+          <!-- Parámetro 6: Imagen mediante etiqueta img -->
           <img src="Los_Iracundos_en_1968.jpg" alt="Los Iracundos en 1968">
           <figcaption>Los Iracundos en 1968.</figcaption>
         </figure>
       </div>
 
+      <!-- Parámetro 9: Enlace interno -->
       <a class="volver" href="#inicio">← Volver al inicio</a>
     </section>
 
@@ -501,6 +516,7 @@
       <h2>Galería</h2>
       <p>Momentos históricos de la trayectoria de Los Iracundos:</p>
 
+      <!-- Parámetros 3, 4 y 6: Organización con div, class e img -->
       <div class="galeria-grid">
         <div class="tarjeta-foto">
           <img src="Los_Blue_Kings_entre_1958-1963.jpg" alt="Los Blue Kings entre 1958 y 1963">
@@ -528,6 +544,7 @@
       <h2>Audios en MP3</h2>
       <p>Escucha tres de los temas más emblemáticos de Los Iracundos directamente en el navegador:</p>
 
+      <!-- Parámetro 7: Incorporación de audio mediante etiqueta audio -->
       <ul class="lista-items">
         <li class="tarjeta-audio">
           <strong>1. Fábula</strong>
@@ -618,9 +635,11 @@
       <ul class="lista-items">
         <li>
           <strong>Los Iracundos - Tú con él</strong>
+          <!-- Parámetros 3 y 8: Div contenedor y video mediante iframe -->
           <div class="video-contenedor">
             <iframe src="https://www.youtube.com/embed/vM1ijxK55lY" title="Los Iracundos - Tú con él" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
+          <!-- Parámetro 9: Enlace externo -->
           <a class="enlace-respaldo" href="https://www.youtube.com/watch?v=vM1ijxK55lY" target="_blank" rel="noopener noreferrer">Ver en YouTube</a>
         </li>
       </ul>
@@ -779,6 +798,7 @@
       <a class="volver" href="#inicio">← Volver al inicio</a>
     </section>
 
+    <!-- Parámetros 1, 3, 5 y 9: Pie de página HTML5 con div, id y enlaces externos -->
     <footer id="pie-pagina" class="pie">
       <div class="redes-sociales">
         <span>Redes oficiales de Los Iracundos:</span>
