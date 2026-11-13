@@ -293,7 +293,7 @@
       <div class="lista-audios">
         <div id="pista-fabula" class="tarjeta-audio">
           <strong>1. Fábula (1972)</strong>
-          <p class="info-pista">Álbum: <em>Los Iracundos (1968)</em></p>
+          <p class="info-pista">Álbum: <em>Incomparables (1980)</em></p>
           <audio controls preload="none">
             <source src="fábula.mp3" type="audio/mpeg">
             Tu navegador no soporta la reproducción de audio HTML5.
