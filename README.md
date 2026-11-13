@@ -401,18 +401,8 @@
     <h2>Audios en MP3</h2>
     <p>Escucha tres de los temas más emblemáticos de Los Iracundos directamente en el navegador:</p>
 
-    <ul class="lista-items">
       <li class="tarjeta-audio">
-        <strong>1. Puerto Montt (1968)</strong>
-        <p class="info-pista">Álbum: <em>Puerto Montt</em></p>
-        <audio controls preload="none">
-          <source src="puerto_montt.mp3" type="audio/mpeg">
-          Tu navegador no soporta la reproducción de audio HTML5.
-        </audio>
-      </li>
-
-      <li class="tarjeta-audio">
-        <strong>2. Fábula (1972)</strong>
+        <strong>2. Fábula</strong>
         <p class="info-pista">Álbum: <em>Los Iracundos</em></p>
         <audio controls preload="none">
           <source src="fabula.mp3" type="audio/mpeg">
@@ -421,10 +411,20 @@
       </li>
 
       <li class="tarjeta-audio">
-        <strong>3. Te lo pido de rodillas (1970)</strong>
+        <strong>3. Te lo pido de rodillas</strong>
         <p class="info-pista">Álbum: <em>Los Iracundos</em></p>
         <audio controls preload="none">
           <source src="te_lo_pido_de_rodillas.mp3" type="audio/mpeg">
+          Tu navegador no soporta la reproducción de audio HTML5.
+        </audio>
+      </li>
+
+    <ul class="lista-items">
+      <li class="tarjeta-audio">
+        <strong>1. Puerto Montt</strong>
+        <p class="info-pista">Álbum: <em>Puerto Montt</em></p>
+        <audio controls preload="none">
+          <source src="puerto_montt.mp3" type="audio/mpeg">
           Tu navegador no soporta la reproducción de audio HTML5.
         </audio>
       </li>
@@ -467,61 +467,6 @@
   <!-- PÁGINA: LETRAS DE CANCIONES -->
   <section id="letras" class="pagina detalle" hidden>
     <h2>Letras de canciones</h2>
-
-    <h3>Puerto Montt</h3>
-    <p>
-      Sentado frente al mar<br>
-      Mil besos yo le di<br>
-      Después le dije adiós<br>
-      Todo termina aquí<br>
-      Y ella me dijo así.<br>
-
-      Abrázame y verás<br>
-      Que el mundo es de los dos<br>
-      Salgamos a correr<br>
-      Busquemos el ayer<br>
-      Que nos hizo feliz<br>
-
-      Puerto Montt<br>
-      Puerto Montt<br>
-      Me alejé de ti<br>
-      Sin saber por qué<br>
-
-      Y yo la dejé<br>
-      Sola frente al mar<br>
-      Bajo el cielo azul<br>
-      De Puerto Montt<br>
-
-      Mil violines en su voz<br>
-      Susurraron un adiós<br>
-      Y un amor que se quedó<br>
-      Perdido frente al mar<br>
-      Y el viento lo llevó<br>
-
-      Silencio sin piedad<br>
-      Encontraré al volver<br>
-      Mas en la soledad<br>
-      Su voz me gritará<br>
-      No, no te vayas de mí<br>
-
-      Puerto Montt<br>
-      Puerto Montt<br>
-      Me alejé de ti<br>
-      Sin saber por qué<br>
-
-      Y yo la dejé<br>
-      Sola frente al mar<br>
-      Bajo el cielo azul<br>
-      De Puerto Montt<br>
-
-      La-la-la, la, la<br>
-      La-la-la, la, la<br>
-      La-la-la, la, la<br>
-      La-la-la<br>
-
-      La-la-la, la, la<br>
-      La-la-la, la, la<br>
-    </p>
 
     <h3>Fábula</h3>
     <p>
@@ -604,6 +549,61 @@
       y te quiero<br>
       Como antes,<br>
       Mucho más
+    </p>
+
+<h3>Puerto Montt</h3>
+    <p>
+      Sentado frente al mar<br>
+      Mil besos yo le di<br>
+      Después le dije adiós<br>
+      Todo termina aquí<br>
+      Y ella me dijo así.<br>
+
+      Abrázame y verás<br>
+      Que el mundo es de los dos<br>
+      Salgamos a correr<br>
+      Busquemos el ayer<br>
+      Que nos hizo feliz<br>
+
+      Puerto Montt<br>
+      Puerto Montt<br>
+      Me alejé de ti<br>
+      Sin saber por qué<br>
+
+      Y yo la dejé<br>
+      Sola frente al mar<br>
+      Bajo el cielo azul<br>
+      De Puerto Montt<br>
+
+      Mil violines en su voz<br>
+      Susurraron un adiós<br>
+      Y un amor que se quedó<br>
+      Perdido frente al mar<br>
+      Y el viento lo llevó<br>
+
+      Silencio sin piedad<br>
+      Encontraré al volver<br>
+      Mas en la soledad<br>
+      Su voz me gritará<br>
+      No, no te vayas de mí<br>
+
+      Puerto Montt<br>
+      Puerto Montt<br>
+      Me alejé de ti<br>
+      Sin saber por qué<br>
+
+      Y yo la dejé<br>
+      Sola frente al mar<br>
+      Bajo el cielo azul<br>
+      De Puerto Montt<br>
+
+      La-la-la, la, la<br>
+      La-la-la, la, la<br>
+      La-la-la, la, la<br>
+      La-la-la<br>
+
+      La-la-la, la, la<br>
+      La-la-la, la, la<br>
     </p>
 
     <a class="volver" href="#inicio">← Volver al inicio</a>
