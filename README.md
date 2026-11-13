@@ -17,9 +17,16 @@
       line-height: 1.6;
     }
 
-    /* Solución clave: evita que display:flex anule el atributo hidden */
+    /* Evita que display:flex anule el atributo hidden */
     [hidden] {
       display: none !important;
+    }
+
+    /* Regla general para que ninguna imagen se salga de su contenedor */
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
     }
 
     .encabezado {
@@ -121,6 +128,29 @@
       text-decoration: underline;
     }
 
+    /* Estilo para la fotografía en Biografía */
+    .foto-biografia {
+      background: #ffffff;
+      padding: 14px;
+      border-radius: 6px;
+      max-width: 420px;
+      margin: 12px 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+    }
+
+    .foto-biografia img {
+      width: 100%;
+      border-radius: 4px;
+    }
+
+    .foto-biografia figcaption {
+      margin-top: 8px;
+      font-size: 0.9rem;
+      color: #444;
+      text-align: center;
+      font-weight: bold;
+    }
+
     .lista-items {
       list-style: none;
       padding: 0;
@@ -134,31 +164,38 @@
       border-radius: 4px;
     }
 
+    /* Cuadrícula y tarjetas de la Galería */
     .galeria-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 15px;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
       margin-top: 15px;
     }
 
     .tarjeta-foto {
       background: #ffffff;
-      padding: 15px;
+      padding: 14px;
       border-radius: 6px;
       text-align: center;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
 
-    .marco-foto {
-      background: #bbdefb;
-      height: 140px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    .tarjeta-foto img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
       border-radius: 4px;
+      background-color: #bbdefb;
+    }
+
+    .tarjeta-foto p {
+      margin: 10px 0 0;
       font-weight: bold;
       color: #0d47a1;
-      margin-bottom: 10px;
+      font-size: 0.95rem;
     }
 
     .pie {
@@ -242,13 +279,13 @@
     <p>El repertorio musical del grupo se basa en géneros como el pop, la canción melódica, la balada romántica, el rock, la nueva ola, la música instrumental y la música beat.</p>
 
     <h3>Año de inicio de su carrera</h3>
-    <p>El grupo inicio su carrera desde bajo el nombre de Los Blue Kings entre 1958 hasta el año de 1963 cuando adoptaron el nombre de Los Iracundos el cual ha sido el nombre del grupo hasta ahora.</p>
+    <p>El grupo inició su carrera bajo el nombre de Los Blue Kings entre 1958 hasta el año de 1963, cuando adoptaron el nombre de Los Iracundos, el cual ha sido el nombre del grupo hasta ahora.</p>
 
     <h3>Fotografía del grupo</h3>
-    El grupo en 1968.
-    <p>
-    <img src="Los_Iracundos_en_1968.jpg" alt="Los Iracundos en 1968"width="300">
-    </p>
+    <figure class="foto-biografia">
+      <img src="Los_Iracundos_en_1968.jpg" alt="Los Iracundos en 1968">
+      <figcaption>El grupo en 1968.</figcaption>
+    </figure>
 
     <a class="volver" href="#inicio">← Volver al inicio</a>
   </section>
@@ -260,16 +297,16 @@
 
     <div class="galeria-grid">
       <div class="tarjeta-foto">
-        <div class="marco-foto">Los Blue Kings entre 1958 - 1963</div>
-        <p><img src="Los_Blue_Kings_entre_1958-1963.jpg" alt="Los Blue Kings entre 1958 - 1963"width="300"></p>
+        <img src="Los_Blue_Kings_entre_1958-1963.jpg" alt="Los Blue Kings entre 1958 y 1963">
+        <p>Los Blue Kings entre 1958 - 1963</p>
       </div>
       <div class="tarjeta-foto">
-        <div class="marco-foto">Los Iracundos en 1974</div>
-        <p><img src="Los_Iracundos_en_1974.jpg" alt="Los Iracundos en 1968"width="300"></p>
+        <img src="Los_Iracundos_en_1974.jpg" alt="Los Iracundos en 1974">
+        <p>Los Iracundos en 1974</p>
       </div>
       <div class="tarjeta-foto">
-        <div class="marco-foto">Los Iracundos en 1982</div>
-        <p><img src="Los_Iracundos_en_1982.jpg" alt="Los Iracundos en 1982"width="300"></p>
+        <img src="Los_Iracundos_en_1982.jpg" alt="Los Iracundos en 1982">
+        <p>Los Iracundos en 1982</p>
       </div>
     </div>
 
