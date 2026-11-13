@@ -428,11 +428,27 @@
       La-la-la, la, la
     </p>
 
-    <h3>Te lo pido de rodillas (Fragmento)</h3>
+    <h3>Te lo pido de rodillas</h3>
     <p>
-      Te lo pido de rodillas,<br>
-      no te vayas, no me dejes,<br>
-      que sin ti no sé vivir...
+      Te llamé porque hace un año que no hablamos<br>
+      Para romper aquel adiós que nos juramos<br>
+      Voy a pedirte de rodillas que regreses junto a mí<br>
+      Porque soy de ti<br>
+      Y te quiero como antes, mucho más<br>
+      Te llamé porque te quiero todavía<br>
+      Porque este amor<br>
+      Me atormenta<br>
+      Noche y día<br>
+      Voy a pedirte de rodillas que regreses junto a mí<br>
+      Porque soy de ti<br>
+      y te quiero<br>
+      Como antes,<br>
+      Mucho más<br>
+      Voy a pedirte de rodillas que regreses junto a mí<br>
+      Porque soy de ti<br>
+      y te quiero<br>
+      Como antes,<br>
+      Mucho más
     </p>
 
     <a class="volver" href="#inicio">← Volver al inicio</a>
